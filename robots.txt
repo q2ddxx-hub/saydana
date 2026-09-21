@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://q2ddxx-hub.github.io/saydana/sitemap.xml
