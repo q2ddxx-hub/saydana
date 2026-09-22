@@ -217,13 +217,21 @@
     // simply pick an option.
     const key = !S ? 'home' : S.finished || S.idx >= S.ids.length ? 'results'
       : 'q' + S.idx + (S.checked[S.ids[S.idx]] ? '-checked' : '');
+    const first = lastScreen === null;
     if (key !== lastScreen) {
       lastScreen = key;
       // after checking an answer, the explanation is the thing to read, not the question again
+      // One selector per line, tried in order: a comma list would hand back whichever matched
+      // first in the document, which is the eyebrow, not the heading a reader wants.
       const target = (key.endsWith('-checked') && screen.querySelector('.feedback'))
-        || screen.querySelector('.stem, h1, .eyebrow') || screen;
-      target.setAttribute('tabindex', '-1');
-      try { target.focus({ preventScroll: true }); } catch (e) { target.focus(); }
+        || ['.stem', 'h1', '.eyebrow'].reduce((found, sel) => found || screen.querySelector(sel), null)
+        || screen;
+      // Not on the first paint: nobody has asked for anything yet, so moving focus on arrival
+      // only takes it away from where the reader put it.
+      if (!first) {
+        target.setAttribute('tabindex', '-1');
+        try { target.focus({ preventScroll: true }); } catch (e) { target.focus(); }
+      }
     } else if (activeLetter) {
       const same = [...screen.querySelectorAll('.option')].find(b => b.textContent === activeLetter);
       if (same) { try { same.focus({ preventScroll: true }); } catch (e) { same.focus(); } }
