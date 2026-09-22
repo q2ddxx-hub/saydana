@@ -128,5 +128,8 @@ footer p { margin: 4px 0; }
 .mode b { display: block; font-size: 17px; margin-bottom: 4px; }
 .mode span { color: var(--ink-2); font-size: 15px; }
 .missed { margin: 8px 0 0; padding-inline-start: 18px; color: var(--ink-2); font-size: 15px; }
+.sharebox { flex: 1 1 260px; min-width: 200px; padding: 12px 14px; border-radius: 10px; border: 1.5px solid var(--line);
+  background: var(--paper); color: var(--ink); font: 14px/1.4 var(--font); }
+.sharebox.hidden { display: none; }
 @media (max-width: 560px) { .hero { padding: 40px 0 24px; } .panel { padding: 18px; } .score { font-size: 44px; } }
 @media (prefers-reduced-motion: no-preference) { .progress span, .meter span { transition: width .3s ease; } }

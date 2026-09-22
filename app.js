@@ -140,6 +140,7 @@
       byDomain.map(x => [el('div', { class: 'drow' }, el('span', { text: `${x.d.name} (${Math.round(x.d.weight * 100)}% of the exam)` }), el('b', { text: `${x.ok} of ${x.n}` })),
         el('div', { class: 'meter' }, el('span', { style: `width:${(100 * x.ok / x.n).toFixed(1)}%` }))]),
       weakest && weakest.ok < weakest.n ? el('p', { text: `Start with ${weakest.d.name}: it is your weakest area here, and it carries ${Math.round(weakest.d.weight * 100)}% of the exam.` }) : null,
+      missedCompetencies(),
       missed.length ? el('details', {}, el('summary', { text: `Review the ${missed.length} question(s) you missed` }),
         missed.map(id => { const it = byId(id); return el('div', { class: 'feedback' },
           el('p', { class: 'stem', style: 'font-size:17px', text: it.stem }),
@@ -147,7 +148,45 @@
           el('p', { style: 'color:var(--ink-2)', text: it.explanation })); })) : null,
       el('div', { class: 'bar' },
         el('button', { class: 'btn btn-ghost', type: 'button', onclick: () => { S = null; persist(); render(); }, text: 'Back to start' }),
+        shareButton(pct, correct, total),
         waitlist ? el('a', { class: 'btn btn-primary', href: waitlist, target: '_blank', rel: 'noopener', text: 'Get the full bank first: join the waitlist' }) : null));
+  }
+
+  function shareButton(pct, correct, total) {
+    const url = DATA.config.site_url || '';
+    if (!url) return null;
+    const line = `I scored ${pct}% (${correct} of ${total}) on the free Saydana SPLE diagnostic: original questions, every option explained. ${url}/`;
+    const box = el('input', { class: 'sharebox hidden', type: 'text', readonly: true, value: line,
+                              'aria-label': 'Your result, ready to copy' });
+    const btn = el('button', { class: 'btn btn-ghost', type: 'button', text: 'Copy my result to share' });
+    btn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(line);
+        btn.textContent = 'Copied, paste it anywhere';
+      } catch (e) {
+        // clipboard blocked (private mode, permissions): show the text already selected instead
+        box.classList.remove('hidden');
+        box.focus();
+        box.select();
+        btn.textContent = 'Copy it from here';
+      }
+    });
+    return el('div', { style: 'display:flex;gap:10px;flex-wrap:wrap;align-items:center' }, btn, box);
+  }
+
+  function missedCompetencies() {
+    const counts = new Map();
+    for (const id of S.ids) {
+      const item = byId(id);
+      if (S.answers[id] !== item.answer) counts.set(item.competency, (counts.get(item.competency) || 0) + 1);
+    }
+    if (!counts.size) return null;
+    const rows = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    return el('div', {},
+      el('h3', { style: 'margin-top:22px', text: 'Competencies to revisit' }),
+      el('p', { class: 'note', style: 'margin:0 0 8px', text: 'The blueprint codes you missed, most-missed first. Study these by name in the SCFHS blueprint.' }),
+      el('ul', { class: 'missed' }, rows.map(([code, n]) => el('li', {},
+        el('b', { text: code }), ' ', domainName(code.split('.')[0]), n > 1 ? ` (${n} questions)` : ''))));
   }
 
   // ---------- timer ---------------------------------------------------------------
@@ -160,6 +199,7 @@
   }
   function stopTimer() { if (timerId) { clearInterval(timerId); timerId = null; } }
 
+  let lastScreen = null;
   function render() {
     stopTimer();
     let screen;
@@ -167,7 +207,27 @@
     else if (!S) screen = home();
     else if (S.finished || S.idx >= S.ids.length) screen = results();
     else screen = question();
+    // A re-render on the same screen (picking an option) destroys the focused button, so remember
+    // which one it was and put focus back on its replacement.
+    const activeLetter = document.activeElement && document.activeElement.closest
+      ? (document.activeElement.closest('.option') || {}).textContent : null;
     root.replaceChildren(screen);
+    // Move focus only when the screen itself changes, so a keyboard or screen-reader user lands on
+    // the new question instead of the top of the page, and does not get yanked back when they
+    // simply pick an option.
+    const key = !S ? 'home' : S.finished || S.idx >= S.ids.length ? 'results'
+      : 'q' + S.idx + (S.checked[S.ids[S.idx]] ? '-checked' : '');
+    if (key !== lastScreen) {
+      lastScreen = key;
+      // after checking an answer, the explanation is the thing to read, not the question again
+      const target = (key.endsWith('-checked') && screen.querySelector('.feedback'))
+        || screen.querySelector('.stem, h1, .eyebrow') || screen;
+      target.setAttribute('tabindex', '-1');
+      try { target.focus({ preventScroll: true }); } catch (e) { target.focus(); }
+    } else if (activeLetter) {
+      const same = [...screen.querySelectorAll('.option')].find(b => b.textContent === activeLetter);
+      if (same) { try { same.focus({ preventScroll: true }); } catch (e) { same.focus(); } }
+    }
     if (S && S.deadline && !S.finished) { tick(); timerId = setInterval(tick, 1000); }
   }
 
