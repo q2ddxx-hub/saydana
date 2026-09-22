@@ -922,7 +922,7 @@ window.SAYDANA = {
   }
  ],
  "config": {
-  "waitlist_url": "mailto:dr.althomali.a.y@gmail.com?subject=Saydana%20waitlist&body=I%20would%20like%20to%20hear%20when%20the%20full%20Saydana%20bank%20opens.%0A%0A1.%20When%20do%20you%20plan%20to%20sit%20the%20SPLE%3F%20%28within%20a%20month%20/%201%20to%203%20months%20/%203%20to%206%20months%20/%20later%20/%20already%20passed%29%0A2.%20Where%20did%20you%20study%20pharmacy%3F%0A3.%20What%20is%20the%20most%20you%20would%20pay%20for%206%20months%20of%20access%3F%20%28SAR%20149%20/%20199%20/%20249%20/%20299%20/%20349%20/%20another%20amount%20/%20I%20would%20not%20pay%29%0A4.%20What%20do%20you%20find%20hardest%20to%20prepare%20for%3F%20%28topics%20please%2C%20not%20exam%20questions%29%0A%0ABy%20sending%20this%20email%20you%20agree%20that%20Saydana%20may%20reply%20to%20you%20about%20it.%20Ask%20us%20any%20time%20to%20delete%20your%20address.",
+  "waitlist_url": "https://docs.google.com/forms/d/e/1FAIpQLSf6wiuIN73-fXzWj4PX_w4nALLbL-hMKpoZGsXhOU76ulhU3w/viewform",
   "preview": false,
   "site_url": "https://q2ddxx-hub.github.io/saydana"
  }
