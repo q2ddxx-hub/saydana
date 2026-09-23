@@ -1,0 +1,178 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Saydana Video 01</title>
+<style>
+:root{--bg:#fff;--fg:#1a1d24;--mut:#5b6270;--card:#f3f5f8;--line:#dde2ea;--acc:#0a84c6}
+@media (prefers-color-scheme:dark){:root{--bg:#0b0f17;--fg:#e8ecf2;--mut:#9aa3b2;--card:#141a24;--line:#253040;--acc:#38d5ff}}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,system-ui,"Segoe UI",sans-serif;margin:0;padding:16px}
+main{max-width:760px;margin:auto}
+h1{font-size:1.5rem;line-height:1.3} h2{margin-top:2rem;border-top:1px solid var(--line);padding-top:1rem;font-size:1.2rem}
+a{color:var(--acc)} code{background:var(--card);padding:1px 4px;border-radius:4px;font-size:.9em;word-break:break-word}
+table{border-collapse:collapse;width:100%;font-size:.92rem;display:block;overflow-x:auto}
+td,th{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left} th{background:var(--card)}
+.code{position:relative;margin:12px 0} pre{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:40px 12px 12px;white-space:pre-wrap;word-break:break-word;margin:0}
+pre code{background:none;padding:0} pre.ar{font-size:1.05rem;line-height:2;font-family:"Geeza Pro","Noto Naskh Arabic",Tahoma,sans-serif}
+button{position:absolute;top:6px;right:6px;background:var(--acc);color:#fff;border:0;border-radius:6px;padding:4px 12px;font-size:.85rem}
+</style></head><body><main><h1>Saydana Video 01: "Why primaquine destroys red cells" (G6PD)</h1>
+<p>Format: 9:16 (1080×1920), about 70 s. The narration is Arabic and the technical terms stay in English.
+Look: the same glowing X-ray style as your example (dark navy, cyan glow, orange for the thing that matters).</p>
+<hr />
+<h2>1. Platforms</h2>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Platform</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Images</td>
+<td><strong>fal.ai</strong> (runs the top image models such as Flux Pro and Imagen through one API key)</td>
+<td>It has an API, so the pipeline can make images automatically (option B). If you make images by hand, <strong>Midjourney</strong> gives the best look, using the same prompts.</td>
+</tr>
+<tr>
+<td>Voice</td>
+<td><strong>ElevenLabs</strong> (Multilingual model)</td>
+<td>It has the most natural Arabic of the services available today. It can also clone a real native voice.</td>
+</tr>
+<tr>
+<td>Short "living" shots (optional)</td>
+<td><strong>Kling</strong> image-to-video (also available on fal.ai)</td>
+<td>It turns a still image into a 5-second shot with gentle movement, like the moving shots in your example.</td>
+</tr>
+<tr>
+<td>Titles, labels, captions, music mix, final render</td>
+<td><strong>Me</strong>, in code</td>
+<td>There's no platform to set up for this.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong> the prompts below ask the image models for <strong>no text</strong>. Image AIs misspell words, especially in Arabic. I add every label and caption in code, so the spelling is exact and I can use Arabic fonts.</p>
+<h2>2. What you set up for option B (once)</h2>
+<p>In this environment's settings (the cloud environment menu in the session title bar, then <strong>Edit</strong>):</p>
+<ol>
+<li><strong>Network access:</strong> add these domains to the allowed list:</li>
+<li><code>api.elevenlabs.io</code></li>
+<li><code>fal.run</code>, <code>queue.fal.run</code>, <code>fal.media</code>, <code>v3.fal.media</code></li>
+<li><strong>API keys:</strong> add these as environment variables:</li>
+<li><code>ELEVENLABS_API_KEY</code></li>
+<li><code>FAL_KEY</code></li>
+<li>Start a new session. The changes only apply to new sessions.</li>
+</ol>
+<p>Never paste keys into the chat. The environment settings are the right place for them.</p>
+<h2>3. Arabic voice test (do this before committing)</h2>
+<p>In ElevenLabs, go to <strong>Voice Library</strong> and filter by Language = Arabic, Accent = Saudi / Gulf, and Use case = Narration.
+Pick <strong>3 male and 2 female</strong> voices and generate lines 1, 5 and 11 of the script below with each one.
+Settings: model <em>Multilingual</em> (the newest one offered), Stability 45, Similarity 75, Style 10.</p>
+<p>Judge each voice on three things:
+- Does it sound like a Saudi pharmacist, or like a news anchor from somewhere else?
+- Does it say <strong>G6PD, NADPH, glutathione</strong> like an English-speaking doctor would, or does it Arabize them?
+- Does it switch between Arabic and English without a pause or a change of voice?</p>
+<p><strong>If none of them pass</strong>, clone a real voice. Use <strong>Instant Voice Clone</strong> with a clean 1–2 minute recording of you, or of a pharmacist you know, reading Arabic that includes English terms. This option is the most reliable way to get a native accent. The voice is then a real person's voice and belongs to the channel.</p>
+<h2>4. Style prompt (add to the end of every image prompt)</h2>
+<div class="code"><button onclick="cp(this)">Copy</button><pre><code>scientific X-ray visualization, translucent glass-like anatomy with glowing cyan edges, deep navy background (#050B18), bioluminescent cyan rim light (#38D5FF), selective warm orange glow (#FF7A1A) only on the key structure, volumetric light, cinematic macro photography, ultra-detailed, high contrast, shallow depth of field, calm empty dark space in the top third and bottom third of the frame, vertical composition, no text, no letters, no labels, no watermark, no logo
+</code></pre></div>
+<p>Midjourney: add <code>--ar 9:16 --style raw</code>. fal.ai: set the aspect ratio to 9:16 (portrait).</p>
+<h2>5. Shot list: image prompts</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Time</th>
+<th>Image prompt (+ style prompt)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S01</td>
+<td>0–5 s</td>
+<td>Red blood cells flowing through a translucent capillary, one red blood cell in the center cracking open and bursting into glowing fragments</td>
+</tr>
+<tr>
+<td>S02</td>
+<td>5–10 s</td>
+<td>A single white pharmaceutical tablet dissolving inside a bloodstream, tiny orange sparks of oxidant particles radiating outward from it toward nearby red blood cells</td>
+</tr>
+<tr>
+<td>S03</td>
+<td>10–17 s</td>
+<td>Cutaway of a single biconcave red blood cell rendered as translucent glass, packed with small glowing hemoglobin molecules, visibly no nucleus and no mitochondria, clean empty interior spaces</td>
+</tr>
+<tr>
+<td>S04</td>
+<td>17–23 s</td>
+<td>A large 3D protein enzyme in ribbon-model style, glowing cyan, one section of the protein fractured and dim, floating inside a red blood cell</td>
+</tr>
+<tr>
+<td>S05</td>
+<td>23–30 s</td>
+<td>An abstract metabolic pathway shown as streams of light flowing through the inside of a red blood cell, the very first gate of the stream glowing orange, the rest cyan</td>
+</tr>
+<tr>
+<td>S06</td>
+<td>30–37 s</td>
+<td>Small glowing molecules linking into a hexagonal cyan energy shield along the inner membrane of a red blood cell, deflecting incoming orange sparks</td>
+</tr>
+<tr>
+<td>S07</td>
+<td>37–42 s</td>
+<td>The same hexagonal cyan shield cracking and shattering, orange sparks piercing through into the red blood cell</td>
+</tr>
+<tr>
+<td>S08</td>
+<td>42–48 s</td>
+<td>Fresh fava beans and a few white tablets on a dark reflective surface, cyan rim light, faint orange haze rising from them</td>
+</tr>
+<tr>
+<td>S09</td>
+<td>48–54 s</td>
+<td>Inside a red blood cell, dark clumps of denatured protein sticking to the inner membrane, glowing orange, surrounding hemoglobin dimming</td>
+</tr>
+<tr>
+<td>S10</td>
+<td>54–60 s</td>
+<td>A translucent macrophage in the spleen taking a semicircular bite out of a red blood cell, the bitten edge glowing orange</td>
+</tr>
+<tr>
+<td>S11</td>
+<td>60–65 s</td>
+<td>Many red blood cells each missing a semicircular bite, drifting apart, some fragmenting, microscopy view</td>
+</tr>
+<tr>
+<td>S12</td>
+<td>65–72 s</td>
+<td>A calm field of healthy red blood cells flowing gently through a vessel, light rays from above, peaceful</td>
+</tr>
+</tbody>
+</table>
+<p>The title cards between shots ("G6PD", "NO SHIELD", "BITE CELLS", "ANSWER: NADPH") are made in code, so they need no prompt.</p>
+<p><strong>Optional Kling motion prompt</strong> (use it on S01, S06/S07 and S10):
+<code>slow cinematic push-in, particles drift gently, subtle glow pulsing, camera steady, no morphing, 5 seconds</code></p>
+<h2>6. Narration: Arabic with English terms (ElevenLabs)</h2>
+<p>Write the English terms in Latin letters exactly as shown below, so the voice says them in English.</p>
+<div class="code"><button onclick="cp(this)">Copy</button><pre dir="rtl" class="ar"><code>1  الـ primaquine… دواء للملاريا. بس عند بعض الناس، يدمّر كريات الدم الحمراء خلال أيام.
+2  والسبب؟ إنزيم واحد ناقص… G6PD.
+3  كرية الدم الحمراء ما فيها mitochondria… فمصدرها للـ NADPH هو الـ pentose phosphate pathway.
+4  والـ G6PD هو أول خطوة فيه… الخطوة اللي تتحكم بالسرعة كلها.
+5  الـ NADPH يحافظ على الـ glutathione بشكله الـ reduced… وهذا هو الدرع اللي يطفّي الـ oxidants.
+6  لما ينقص الإنزيم… الدرع يطيح.
+7  ويجي دواء oxidant… primaquine، dapsone، rasburicase… أو حتى الفول.
+8  الهيموغلوبين يتأكسد ويتكتّل داخل الخلية… وهذي هي الـ Heinz bodies.
+9  الطحال يشوفها… ويقضم منها. فتطلع لنا الـ bite cells.
+10 والنتيجة: hemolysis… بعد يومين إلى ثلاثة من أول جرعة.
+11 وفي الاختبار؟ قبل primaquine أو rasburicase… افحص G6PD. وتذكّر: الـ methylene blue ممنوع عنده.
+12 الجواب إذن… NADPH. صيدنة. تدريب أصيل للـ SPLE.
+</code></pre></div>
+<p>On-screen captions show the Arabic line with the English term highlighted in cyan. Big title cards use the English term, as the exam does.</p>
+<h2>7. Music</h2>
+<p>Download one track from <strong>Epidemic Sound</strong> or <strong>Artlist</strong> (they have commercial licences for TikTok). Search for "ambient cinematic science, 70 bpm, no vocals", or a similar deep drone with a soft pulse. I'll duck it under the voice and bring the final loudness to TikTok's target level.</p>
+<h2>8. What I do once the keys are in</h2>
+<ol>
+<li>The pipeline generates all 12 images from the prompts above, making 2 versions of each so we can pick the better one.</li>
+<li>It generates the voice line by line and gets word timings for the captions.</li>
+<li>It builds the video: title cards, labels with leader lines, slow zooms, Arabic captions timed to each word, the Saydana logo, the music mix, and the final render at 1080×1920.</li>
+<li>I send you the draft. Your notes go into the script and prompts, and the next version is one command.</li>
+</ol></main>
+<script>function cp(b){const t=b.nextElementSibling.innerText;navigator.clipboard.writeText(t).then(()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1500)})}</script>
+</body></html>
