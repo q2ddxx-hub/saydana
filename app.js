@@ -29,6 +29,22 @@
     for (const kid of kids.flat(Infinity)) if (kid !== null && kid !== undefined && kid !== false) node.append(kid instanceof Node ? kid : document.createTextNode(String(kid)));
     return node;
   }
+  // A reference the reader cannot open is a claim, not a source. Where a url was recorded the
+  // reference becomes a link; where none was, it reads exactly as it did before.
+  function refLine(refs) {
+    const p = el('p', { class: 'ref' });
+    p.append('Reference: ');
+    (refs || []).forEach((r, i) => {
+      if (i) p.append('; ');
+      const label = [r.title, r.locator].filter(Boolean).join(', ');
+      if (r.url && r.url.indexOf('https://') === 0) {
+        p.append(el('a', { class: 'ref-link', href: r.url, target: '_blank', rel: 'noopener noreferrer', text: label }));
+      } else {
+        p.append(label);
+      }
+    });
+    return p;
+  }
   const shuffle = arr => { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const persist = () => { saved.session = S; save(saved); };
   const byId = id => DATA.items.find(i => i.id === id);
@@ -104,7 +120,7 @@
       el('p', { style: 'margin:0', text: item.explanation }),
       el('h4', { text: 'Why the other options are wrong' }),
       el('ul', {}, LETTERS.filter(L => L !== item.answer).map(L => el('li', {}, el('b', { text: L + ': ' }), item.why_not[L]))),
-      el('p', { class: 'ref', text: 'Reference: ' + item.refs.map(r => [r.title, r.locator].filter(Boolean).join(', ')).join('; ') }));
+      refLine(item.refs));
   }
 
   function next() {

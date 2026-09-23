@@ -21,7 +21,8 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Lippincott Illustrated Reviews: Biochemistry",
-     "locator": "chapter on the pentose phosphate pathway and NADPH, section on glucose 6-phosphate dehydrogenase deficiency"
+     "locator": "chapter on the pentose phosphate pathway and NADPH, section on glucose 6-phosphate dehydrogenase deficiency",
+     "url": ""
     }
    ]
   },
@@ -46,19 +47,23 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "CDC, Clinical Care of Mycoplasma pneumoniae Infection (page updated May 2026)",
-     "locator": "treatment section: mycoplasmas lack a cell wall and are inherently resistant to beta-lactams"
+     "locator": "treatment section: mycoplasmas lack a cell wall and are inherently resistant to beta-lactams",
+     "url": "https://www.cdc.gov/mycoplasma/hcp/clinical-care/index.html"
     },
     {
      "title": "CDC, Clinical Overview of Mycoplasma pneumoniae Infection (page updated May 2026)",
-     "locator": "organism characteristics"
+     "locator": "organism characteristics",
+     "url": "https://www.cdc.gov/mycoplasma/hcp/clinical-overview/index.html"
     },
     {
      "title": "Goodman & Gilman's The Pharmacological Basis of Therapeutics",
-     "locator": "chapter on penicillins, cephalosporins and other beta-lactam antibiotics, mechanism of action"
+     "locator": "chapter on penicillins, cephalosporins and other beta-lactam antibiotics, mechanism of action",
+     "url": ""
     },
     {
      "title": "CDC, Differential diagnosis for a respiratory disease outbreak: clinical information and demographic tables (updated March 2008)",
-     "locator": "Mycoplasma pneumoniae rows: unique laboratory finding cold agglutinins; outbreak settings include barracks/dormitory"
+     "locator": "Mycoplasma pneumoniae rows: unique laboratory finding cold agglutinins; outbreak settings include barracks/dormitory",
+     "url": "https://www.cdc.gov/urdo/media/pdfs/2024/04/DiffDx.pdf"
     }
    ]
   },
@@ -83,15 +88,18 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Sunderkötter C, et al. Pathophysiology and clinical manifestations of immune complex vasculitides. Front Med 2023;10:1103065",
-     "locator": "section on serum sickness (onset 7 to 14 days after a foreign protein; complement activation; low C3 and C4)"
+     "locator": "section on serum sickness (onset 7 to 14 days after a foreign protein; complement activation; low C3 and C4)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10020193/"
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "chapter on drug allergy and drug hypersensitivity reactions, Gell and Coombs classification"
+     "locator": "chapter on drug allergy and drug hypersensitivity reactions, Gell and Coombs classification",
+     "url": ""
     },
     {
      "title": "DermNet: Drug hypersensitivity syndrome (DRESS)",
-     "locator": "onset and mechanism"
+     "locator": "onset and mechanism",
+     "url": "https://dermnetnz.org/topics/drug-hypersensitivity-syndrome"
     }
    ]
   },
@@ -116,11 +124,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "APhA Complete Review for Pharmacy",
-     "locator": "chapter on biostatistics, measures of risk: absolute risk reduction, relative risk reduction and number needed to treat"
+     "locator": "chapter on biostatistics, measures of risk: absolute risk reduction, relative risk reduction and number needed to treat",
+     "url": ""
     },
     {
      "title": "Cook RJ, Sackett DL. The number needed to treat: a clinically useful measure of treatment effect. BMJ 1995;310(6977):452-4",
-     "locator": "definition of NNT as the reciprocal of the absolute risk reduction"
+     "locator": "definition of NNT as the reciprocal of the absolute risk reduction",
+     "url": "https://doi.org/10.1136/bmj.310.6977.452"
     }
    ]
   },
@@ -145,7 +155,8 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Basic Statistics and Pharmaceutical Statistical Applications",
-     "locator": "chapters on one-way analysis of variance, nonparametric tests and chi square tests"
+     "locator": "chapters on one-way analysis of variance, nonparametric tests and chi square tests",
+     "url": ""
     }
    ]
   },
@@ -170,7 +181,8 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Essentials of Pharmacoeconomics",
-     "locator": "chapters on cost-minimization, cost-effectiveness, cost-utility and cost-benefit analysis"
+     "locator": "chapters on cost-minimization, cost-effectiveness, cost-utility and cost-benefit analysis",
+     "url": ""
     }
    ]
   },
@@ -195,11 +207,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "American Pharmacists Association, Code of Ethics for Pharmacists (adopted 1994)",
-     "locator": "Principle III, respect for the autonomy and dignity of each patient"
+     "locator": "Principle III, respect for the autonomy and dignity of each patient",
+     "url": "https://www.pharmacist.com/Code-of-Ethics"
     },
     {
      "title": "Saudi Commission for Health Specialties, Code of Ethics for Healthcare Practitioners (English translation, 2014)",
-     "locator": "Chapter 2 (C) Patient's Consent; Chapter 2 (G) Dealing with Patients Who Refuse a Medical Procedure, item 2; Chapter 15 (A), general rule on the right to accept or refuse treatment"
+     "locator": "Chapter 2 (C) Patient's Consent; Chapter 2 (G) Dealing with Patients Who Refuse a Medical Procedure, item 2; Chapter 15 (A), general rule on the right to accept or refuse treatment",
+     "url": "https://scfhs.org.sa/sites/default/files/2026-06/_%D8%A7%D9%84%D9%85%D9%85%D8%A7%D8%B1%D8%B3%20%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%20En.pdf"
     }
    ]
   },
@@ -224,11 +238,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "WHO Collaborating Centre for Patient Safety Solutions, Control of Concentrated Electrolyte Solutions, Patient Safety Solutions volume 1, solution 5, May 2007",
-     "locator": "Associated Issues and Suggested Actions 1b to 1f; Looking Forward item 2"
+     "locator": "Associated Issues and Suggested Actions 1b to 1f; Looking Forward item 2",
+     "url": "https://cdn.who.int/media/docs/default-source/patient-safety/patient-safety-solutions/ps-solution5-control-concentrated-electrolyte-solutions.pdf?sfvrsn=173723e0_6"
     },
     {
      "title": "ISMP, Implement High-Leverage and Layered Risk-Reduction Strategies Using ISMP's Hierarchy of Effectiveness. ISMP Medication Safety Alert! Acute Care 2026;31(1):1-4 (accessed 2026-09-21)",
-     "locator": "hierarchy levels: high, medium and low leverage"
+     "locator": "hierarchy levels: high, medium and low leverage",
+     "url": "https://home.ecri.org/blogs/ismp-alerts-and-articles-library/implement-high-leverage-and-layered-risk-reduction-strategies-using-ismp-s-hierarchy-of-effectiveness"
     }
    ]
   },
@@ -253,7 +269,8 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Prochaska JO, Velicer WF. The transtheoretical model of health behavior change. American Journal of Health Promotion 1997;12(1):38-48",
-     "locator": "section on the stages of change"
+     "locator": "section on the stages of change",
+     "url": "https://doi.org/10.4278/0890-1171-12.1.38"
     }
    ]
   },
@@ -278,11 +295,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "US FDA prescribing information for enalapril maleate tablets (2018 label)",
-     "locator": "Description; Clinical Pharmacology, pharmacokinetics and metabolism"
+     "locator": "Description; Clinical Pharmacology, pharmacokinetics and metabolism",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/018998s083lbl.pdf"
     },
     {
      "title": "Lippincott Illustrated Reviews: Pharmacology",
-     "locator": "chapter on antihypertensives, angiotensin-converting enzyme inhibitors section"
+     "locator": "chapter on antihypertensives, angiotensin-converting enzyme inhibitors section",
+     "url": ""
     }
    ]
   },
@@ -307,11 +326,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "US FDA prescribing information for apixaban tablets (2025 label)",
-     "locator": "section 12.1 Mechanism of Action"
+     "locator": "section 12.1 Mechanism of Action",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/202155s039s040lbl.pdf"
     },
     {
      "title": "Lippincott Illustrated Reviews: Pharmacology",
-     "locator": "chapter on anticoagulants and antiplatelet agents, direct oral factor Xa inhibitors section"
+     "locator": "chapter on anticoagulants and antiplatelet agents, direct oral factor Xa inhibitors section",
+     "url": ""
     }
    ]
   },
@@ -336,11 +357,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "US FDA prescribing information for fomepizole injection (2020 label)",
-     "locator": "Clinical Pharmacology, mechanism of action; Indications and Usage"
+     "locator": "Clinical Pharmacology, mechanism of action; Indications and Usage",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/020696s006lbl.pdf"
     },
     {
      "title": "Goodman & Gilman's The Pharmacological Basis of Therapeutics",
-     "locator": "13th edition, Chapter 4, Drug Toxicity and Poisoning (antidotes)"
+     "locator": "13th edition, Chapter 4, Drug Toxicity and Poisoning (antidotes)",
+     "url": ""
     }
    ]
   },
@@ -365,11 +388,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "US FDA prescribing information for simvastatin tablets (2022 label)",
-     "locator": "section 4 Contraindications; section 7.1, Table 2, strong CYP3A4 inhibitors"
+     "locator": "section 4 Contraindications; section 7.1, Table 2, strong CYP3A4 inhibitors",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/019766s099lbl.pdf"
     },
     {
      "title": "US FDA, For Healthcare Professionals: FDA's Examples of Drugs that Interact with CYP Enzymes and Transporter Systems (content current as of 29 May 2026)",
-     "locator": "Table 1: clarithromycin, CYP3A strong inhibitor (also P-gp, OATP1B1 and OATP1B3 inhibitor); simvastatin, CYP3A sensitive substrate (also OATP1B1 and OATP1B3 substrate)"
+     "locator": "Table 1: clarithromycin, CYP3A strong inhibitor (also P-gp, OATP1B1 and OATP1B3 inhibitor); simvastatin, CYP3A sensitive substrate (also OATP1B1 and OATP1B3 substrate)",
+     "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems"
     }
    ]
   },
@@ -394,19 +419,23 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "US FDA, For Healthcare Professionals: FDA's Examples of Drugs that Interact with CYP Enzymes and Transporter Systems (content current as of 29 May 2026)",
-     "locator": "Table 1: St. John's wort, CYP3A strong inducer; footnote 18, effect varies widely and is preparation dependent"
+     "locator": "Table 1: St. John's wort, CYP3A strong inducer; footnote 18, effect varies widely and is preparation dependent",
+     "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems"
     },
     {
      "title": "Hall SD et al. The interaction between St John's wort and an oral contraceptive. Clin Pharmacol Ther 2003;74(6):525-35",
-     "locator": "abstract, results and conclusion"
+     "locator": "abstract, results and conclusion",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/14663455/"
     },
     {
      "title": "Murphy PA et al. Interaction of St. John's Wort with oral contraceptives. Contraception 2005;71(6):402-8",
-     "locator": "abstract, results and conclusion"
+     "locator": "abstract, results and conclusion",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15914127/"
     },
     {
      "title": "NCCIH, St. John's Wort fact sheet (updated May 2025)",
-     "locator": "safety section, interactions with birth control pills"
+     "locator": "safety section, interactions with birth control pills",
+     "url": "https://www.nccih.nih.gov/health/st-johns-wort"
     }
    ]
   },
@@ -431,11 +460,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "US FDA prescribing information for nifedipine extended-release tablets, osmotic system (label revised 2014)",
-     "locator": "Description; Precautions, Information for Patients; Dosage and Administration"
+     "locator": "Description; Precautions, Information for Patients; Dosage and Administration",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2015/019684s029lbl.pdf"
     },
     {
      "title": "Aulton, Pharmaceutics: The Science of Dosage Form Design",
-     "locator": "chapter on modified-release oral drug delivery"
+     "locator": "chapter on modified-release oral drug delivery",
+     "url": ""
     }
    ]
   },
@@ -460,7 +491,8 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Applied Biopharmaceutics & Pharmacokinetics",
-     "locator": "7th edition: Chapter 6, Intravenous Infusion (steady state and time to reach a fraction of steady state); Chapter 4, One-Compartment Open Model: Intravenous Bolus Administration (elimination half-life)"
+     "locator": "7th edition: Chapter 6, Intravenous Infusion (steady state and time to reach a fraction of steady state); Chapter 4, One-Compartment Open Model: Intravenous Bolus Administration (elimination half-life)",
+     "url": ""
     }
    ]
   },
@@ -485,11 +517,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "EMA, Guideline on the Investigation of Bioequivalence, CPMP/EWP/QWP/1401/98 Rev. 1 (effective 1 August 2010; parts on non-replicate study design superseded by ICH M13A from 25 January 2025)",
-     "locator": "section 4.1.8, parameters to be analysed and acceptance limits; sections 4.1.9 and 4.1.10"
+     "locator": "section 4.1.8, parameters to be analysed and acceptance limits; sections 4.1.9 and 4.1.10",
+     "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-investigation-bioequivalence-rev1_en.pdf"
     },
     {
      "title": "Applied Biopharmaceutics & Pharmacokinetics",
-     "locator": "7th edition, Chapter 16, Drug Product Performance, In Vivo: Bioavailability and Bioequivalence (statistical evaluation)"
+     "locator": "7th edition, Chapter 16, Drug Product Performance, In Vivo: Bioavailability and Bioequivalence (statistical evaluation)",
+     "url": ""
     }
    ]
   },
@@ -514,7 +548,8 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Pharmaceutical Calculations",
-     "locator": "chapter on dilution, concentration and alligation, alligation alternate"
+     "locator": "chapter on dilution, concentration and alligation, alligation alternate",
+     "url": ""
     }
    ]
   },
@@ -539,19 +574,23 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "USP General Chapter 797, Pharmaceutical Compounding: Sterile Preparations (revision official 1 November 2023)",
-     "locator": "section 4.1.2, Design requirements to maintain air quality; Table 4, ISO classification of the classified areas"
+     "locator": "section 4.1.2, Design requirements to maintain air quality; Table 4, ISO classification of the classified areas",
+     "url": "https://www.usp.org/compounding/general-chapter-797"
     },
     {
      "title": "ASHP, USP 797 Key Changes: 2008 versus 2023 chapter (2023)",
-     "locator": "section 04, Facilities and engineering controls (the changes listed do not alter the PEC, buffer room or ante-room ISO classes; particle counts now listed per m3 only)"
+     "locator": "section 04, Facilities and engineering controls (the changes listed do not alter the PEC, buffer room or ante-room ISO classes; particle counts now listed per m3 only)",
+     "url": "https://www.ashp.org/-/media/assets/pharmacy-practice/resource-centers/compounding/docs/USP-797-Key-Changes.pdf"
     },
     {
      "title": "Washington State Pharmacy Quality Assurance Commission, 2025 USP 797 Sterile Compounding Self-Inspection Addendum (DOH 690-296, January 2025), quoting USP 797 (2023)",
-     "locator": "Facilities and Engineering Controls, item 33, quoting USP 797 section 4.1.2"
+     "locator": "Facilities and Engineering Controls, item 33, quoting USP 797 section 4.1.2",
+     "url": "https://content.govdelivery.com/attachments/WADOH/2025/01/25/file_attachments/3142980/2025%20USP%20797%20Sterile%20Compounding%20Addendum.pdf"
     },
     {
      "title": "USP General Chapter 797, Revision Bulletin (2008 chapter), copy hosted by the US Department of Veterans Affairs PBM",
-     "locator": "Table 1, ISO classification of particulate matter in room air; definitions of ante-area and buffer area"
+     "locator": "Table 1, ISO classification of particulate matter in room air; definitions of ante-area and buffer area",
+     "url": "https://www.pbm.va.gov/linksotherresources/docs/usp797pharmaceuticalcompoundingsterilecompounding.pdf"
     }
    ]
   },
@@ -576,11 +615,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "APhA Complete Review for Pharmacy",
-     "locator": "Drug information chapter, section on drug information resources and the questions each answers"
+     "locator": "Drug information chapter, section on drug information resources and the questions each answers",
+     "url": ""
     },
     {
      "title": "Comprehensive Pharmacy Review",
-     "locator": "Drug information resources chapter, specialised references (injectable drug compatibility and stability)"
+     "locator": "Drug information resources chapter, specialised references (injectable drug compatibility and stability)",
+     "url": ""
     }
    ]
   },
@@ -605,11 +646,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "LANOXIN (digoxin) tablets, FDA-approved prescribing information, revised 12/2016",
-     "locator": "Section 2.5 Monitoring (timing of serum digoxin concentrations) and section 12.3 Pharmacokinetics (distribution)"
+     "locator": "Section 2.5 Monitoring (timing of serum digoxin concentrations) and section 12.3 Pharmacokinetics (distribution)",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/020405s013lbl.pdf"
     },
     {
      "title": "Lexicomp",
-     "locator": "Digoxin monograph, monitoring parameters (timing of serum concentrations)"
+     "locator": "Digoxin monograph, monitoring parameters (timing of serum concentrations)",
+     "url": ""
     }
    ]
   },
@@ -634,15 +677,18 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Koda-Kimble and Young's Applied Therapeutics: The Clinical Use of Drugs",
-     "locator": "Seizure disorders chapter, phenytoin: interpreting serum concentrations in hypoalbuminemia"
+     "locator": "Seizure disorders chapter, phenytoin: interpreting serum concentrations in hypoalbuminemia",
+     "url": ""
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "Epilepsy chapter, phenytoin pharmacokinetics, protein binding and therapeutic drug monitoring"
+     "locator": "Epilepsy chapter, phenytoin pharmacokinetics, protein binding and therapeutic drug monitoring",
+     "url": ""
     },
     {
      "title": "Anderson GD, et al. Revised Winter-Tozer equation for normalized phenytoin concentrations in trauma and elderly patients with hypoalbuminemia. Ann Pharmacother 1997;31:279-84",
-     "locator": "Background and results (original and revised equations)"
+     "locator": "Background and results (original and revised equations)",
+     "url": "https://doi.org/10.1177/106002809703100301"
     }
    ]
   },
@@ -667,15 +713,18 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "CPIC Guideline for HLA Genotype and Use of Carbamazepine and Oxcarbazepine: 2017 Update (Clin Pharmacol Ther 2018;103:574-581)",
-     "locator": "Therapeutic recommendations for HLA-B*15:02 carriers (carbamazepine-naive and oxcarbazepine-naive patients)"
+     "locator": "Therapeutic recommendations for HLA-B*15:02 carriers (carbamazepine-naive and oxcarbazepine-naive patients)",
+     "url": "https://doi.org/10.1002/cpt.1004"
     },
     {
      "title": "Karnes JH, et al. CPIC Guideline for CYP2C9 and HLA-B Genotypes and Phenytoin Dosing: 2020 Update. Clin Pharmacol Ther 2021;109:302-309",
-     "locator": "HLA-B*15:02 therapeutic recommendations for phenytoin-naive patients"
+     "locator": "HLA-B*15:02 therapeutic recommendations for phenytoin-naive patients",
+     "url": "https://doi.org/10.1002/cpt.2008"
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "Epilepsy chapter, carbamazepine adverse effects and HLA-B*15:02 screening"
+     "locator": "Epilepsy chapter, carbamazepine adverse effects and HLA-B*15:02 screening",
+     "url": ""
     }
    ]
   },
@@ -700,15 +749,18 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "CDC Yellow Book: Health Information for International Travel, 2026 edition, Yellow Fever chapter",
-     "locator": "Vaccine contraindications: immunosuppressive and immunomodulatory therapies"
+     "locator": "Vaccine contraindications: immunosuppressive and immunomodulatory therapies",
+     "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
     },
     {
      "title": "Rubin LG, et al. 2013 IDSA clinical practice guideline for vaccination of the immunocompromised host. Clin Infect Dis 2014;58:e44-100",
-     "locator": "Recommendations on live vaccines in patients with high-level immunosuppression; definition of high-level immunosuppression"
+     "locator": "Recommendations on live vaccines in patients with high-level immunosuppression; definition of high-level immunosuppression",
+     "url": "https://doi.org/10.1093/cid/cit684"
     },
     {
      "title": "CDC, ACIP General Best Practice Guidelines for Immunization: Altered Immunocompetence (updated June 2024)",
-     "locator": "Immunosuppressive therapies including TNF-alpha inhibitors; safety of non-live vaccines; timing of live vaccines"
+     "locator": "Immunosuppressive therapies including TNF-alpha inhibitors; safety of non-live vaccines; timing of live vaccines",
+     "url": "https://www.cdc.gov/vaccines/hcp/imz-best-practices/altered-immunocompetence.html"
     }
    ]
   },
@@ -733,11 +785,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Pharmaceutical Calculations",
-     "locator": "Selected clinical calculations chapter, creatinine clearance (Cockcroft-Gault equation)"
+     "locator": "Selected clinical calculations chapter, creatinine clearance (Cockcroft-Gault equation)",
+     "url": ""
     },
     {
      "title": "Cockcroft DW, Gault MH. Prediction of creatinine clearance from serum creatinine. Nephron 1976;16:31-41",
-     "locator": "Derived equation and correction for females"
+     "locator": "Derived equation and correction for females",
+     "url": "https://doi.org/10.1159/000180580"
     }
    ]
   },
@@ -762,15 +816,18 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease, executive summary (Kidney International, 2024)",
-     "locator": "Chapter 3, Practice Points 3.6.2 and 3.6.4 (monitoring and continuing ACEi or ARB)"
+     "locator": "Chapter 3, Practice Points 3.6.2 and 3.6.4 (monitoring and continuing ACEi or ARB)",
+     "url": "https://kdigo.org/wp-content/uploads/2017/02/KDIGO-2024-CKD-Guideline-Executive-Summary.pdf"
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "Chronic kidney disease chapter, ACE inhibitors and ARBs: expected rise in serum creatinine and monitoring"
+     "locator": "Chronic kidney disease chapter, ACE inhibitors and ARBs: expected rise in serum creatinine and monitoring",
+     "url": ""
     },
     {
      "title": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease (full guideline)",
-     "locator": "Chapter 3, Figure 21 (monitoring potassium and eGFR after starting ACEi or ARB; work-up when eGFR falls by 30% or more)"
+     "locator": "Chapter 3, Figure 21 (monitoring potassium and eGFR after starting ACEi or ARB; work-up when eGFR falls by 30% or more)",
+     "url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf"
     }
    ]
   },
@@ -795,11 +852,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Gupta K, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: a 2010 update by IDSA and ESCMID. Clin Infect Dis 2011;52:e103-e120",
-     "locator": "Recommendations for treatment of acute uncomplicated cystitis (first-line agents, fluoroquinolones, beta-lactams)"
+     "locator": "Recommendations for treatment of acute uncomplicated cystitis (first-line agents, fluoroquinolones, beta-lactams)",
+     "url": "https://doi.org/10.1093/cid/ciq257"
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "Urinary tract infections chapter, treatment of acute uncomplicated cystitis"
+     "locator": "Urinary tract infections chapter, treatment of acute uncomplicated cystitis",
+     "url": ""
     }
    ]
   },
@@ -824,15 +883,18 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "ZESTRIL (lisinopril) tablets, FDA-approved prescribing information, revised 07/2017",
-     "locator": "Boxed warning (fetal toxicity); section 5.1 Fetal Toxicity; section 8.1 Pregnancy"
+     "locator": "Boxed warning (fetal toxicity); section 5.1 Fetal Toxicity; section 8.1 Pregnancy",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/019777s076lbl.pdf"
     },
     {
      "title": "ACOG Practice Bulletin No. 203: Chronic Hypertension in Pregnancy. Obstet Gynecol 2019;133:e26-e50 (reaffirmed 2024)",
-     "locator": "Preconception counseling (agents to avoid) and long-term antihypertensive treatment in pregnancy"
+     "locator": "Preconception counseling (agents to avoid) and long-term antihypertensive treatment in pregnancy",
+     "url": "https://doi.org/10.1097/AOG.0000000000003020"
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "Pregnancy and lactation: therapeutic considerations chapter, chronic hypertension in pregnancy"
+     "locator": "Pregnancy and lactation: therapeutic considerations chapter, chronic hypertension in pregnancy",
+     "url": ""
     }
    ]
   },
@@ -857,11 +919,13 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Cuker A, et al. American Society of Hematology 2018 guidelines for management of venous thromboembolism: heparin-induced thrombocytopenia. Blood Adv 2018;2:3360-3392",
-     "locator": "Recommendation 2.6 (high-probability 4Ts: stop heparin, start non-heparin anticoagulant); Recommendation 3.5 (vitamin K antagonist only after platelet recovery)"
+     "locator": "Recommendation 2.6 (high-probability 4Ts: stop heparin, start non-heparin anticoagulant); Recommendation 3.5 (vitamin K antagonist only after platelet recovery)",
+     "url": "https://doi.org/10.1182/bloodadvances.2018024489"
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "Venous thromboembolism chapter, heparin-induced thrombocytopenia"
+     "locator": "Venous thromboembolism chapter, heparin-induced thrombocytopenia",
+     "url": ""
     }
    ]
   },
@@ -886,15 +950,18 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Handbook of Nonprescription Drugs",
-     "locator": "Heartburn and dyspepsia chapter, exclusions for self-care (alarm features such as dysphagia and unexplained weight loss)"
+     "locator": "Heartburn and dyspepsia chapter, exclusions for self-care (alarm features such as dysphagia and unexplained weight loss)",
+     "url": ""
     },
     {
      "title": "Katz PO, et al. ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease. Am J Gastroenterol 2022;117:27-56",
-     "locator": "Recommendation 6 (endoscopy first in dysphagia or other alarm symptoms)"
+     "locator": "Recommendation 6 (endoscopy first in dysphagia or other alarm symptoms)",
+     "url": "https://doi.org/10.14309/ajg.0000000000001538"
     },
     {
      "title": "PRILOSEC OTC (omeprazole magnesium) delayed-release tablets, Drug Facts label, DailyMed",
-     "locator": "Do not use; Ask a doctor before use; Directions (14-day course)"
+     "locator": "Do not use; Ask a doctor before use; Directions (14-day course)",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77ed80a2-a482-4838-ac55-4865b5c31d9f"
     }
    ]
   }
