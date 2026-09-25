@@ -141,7 +141,7 @@ window.SAYDANA = {
    "stem": "Which statistical test is most appropriate for comparing the means of a continuous, normally distributed variable with similar variances across three independent groups?",
    "options": {
     "A": "Independent samples t test",
-    "B": "One-way analysis of variance (ANOVA)",
+    "B": "One-way ANOVA",
     "C": "Kruskal-Wallis test",
     "D": "Chi-square test"
    },
@@ -195,7 +195,7 @@ window.SAYDANA = {
     "A": "Beneficence",
     "B": "Nonmaleficence",
     "C": "Justice",
-    "D": "Respect for autonomy"
+    "D": "Autonomy"
    },
    "answer": "D",
    "explanation": "Respect for autonomy means that a patient with decision-making capacity who has been adequately informed has the right to accept or refuse treatment, even when health professionals believe the choice is not in her best interest. This patient has capacity, has been counseled and can state the consequences, so her refusal is an informed decision. Giving the drug covertly would override that decision and deceive her. The pharmacist should decline the son's request, acknowledge his concern, and remain available to revisit the decision with the patient if she wishes. The APhA Code of Ethics for Pharmacists commits pharmacists to respect the autonomy and dignity of each patient and to promote the right of self-determination.",
