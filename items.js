@@ -350,7 +350,7 @@ window.SAYDANA = {
    "answer": "C",
    "explanation": "Ethylene glycol itself mainly causes intoxication similar to ethanol; its serious toxicity comes from its metabolites. Alcohol dehydrogenase converts it to glycoaldehyde, which is further oxidized to glycolate, glyoxylate and oxalate. According to the fomepizole prescribing information, glycolate and oxalate are the primary toxins responsible for the metabolic acidosis and the renal damage. Fomepizole is a competitive inhibitor of alcohol dehydrogenase, so it blocks the first step and prevents formation of these toxic acids while unchanged ethylene glycol is eliminated. It is indicated as an antidote for ethylene glycol or methanol poisoning, alone or together with hemodialysis. Ethanol, which competes with ethylene glycol for alcohol dehydrogenase, is an older alternative when fomepizole is not available.",
    "why_not": {
-    "A": "N-acetylcysteine is the antidote for acetaminophen (paracetamol) poisoning; it restores glutathione so the toxic metabolite NAPQI can be detoxified. It does not inhibit alcohol dehydrogenase.",
+    "A": "N-acetylcysteine is the antidote for paracetamol (acetaminophen) poisoning; it restores glutathione so the toxic metabolite NAPQI can be detoxified. It does not inhibit alcohol dehydrogenase.",
     "B": "Flumazenil reverses benzodiazepine sedation. His drowsiness is caused by ethylene glycol, and flumazenil can precipitate seizures in some patients, so it has no role here.",
     "D": "Sodium bicarbonate may be used as supportive therapy to correct severe acidemia, but it does not stop the formation of glycolate and oxalate, so it is not the specific antidote."
    },
