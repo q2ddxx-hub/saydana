@@ -20,8 +20,38 @@ window.SAYDANA = {
    },
    "refs": [
     {
+     "title": "G6PD gene, MedlinePlus Genetics, National Library of Medicine (the page prints \"Last updated April 12, 2023\"; read 26 September 2026)",
+     "locator": "Normal Function: \"Glucose-6-phosphate dehydrogenase is responsible for the first step in the pentose phosphate pathway\"; \"This chemical reaction produces a molecule called NADPH, which plays a role in protecting cells from potentially harmful molecules called reactive oxygen species\"; and the sentence the four options turn on, \"The production of NADPH by glucose-6-phosphate dehydrogenase is essential in red blood cells, which are particularly susceptible to damage by reactive oxygen species because they lack other NADPH-producing enzymes.\" Health Conditions: \"Without enough functional glucose-6-phosphate dehydrogenase, red blood cells are unable to protect themselves from the damaging effects of reactive oxygen species. The damaged cells are likely to rupture and break down prematurely (undergo hemolysis). Factors such as infections, certain drugs, and ingesting fava beans can increase the levels of reactive oxygen species.\"",
+     "url": "https://medlineplus.gov/genetics/gene/g6pd/"
+    },
+    {
+     "title": "Gammal RS, Pirmohamed M, Somogyi AA, Morris SA, Formea CM, Elchynski AL, Oshikoya KA, McLeod HL, Haidar CE, Whirl-Carrillo M, Klein TE, Caudle KE, Relling MV. Expanded Clinical Pharmacogenetics Implementation Consortium Guideline for Medication Use in the Context of G6PD Genotype. Clin Pharmacol Ther. 2023;113(5):973-985, doi 10.1002/cpt.2735 (authors, volume, issue and pages taken from the Europe PMC machine record for PMC10281211, not from memory. The issue year is cited, not the epub year: CPIC's own registry dates this publication 2022, which is when it appeared online, and the journal issue is May 2023. Free full text read 26 September 2026). Currency check, done against CPIC's own registry rather than a search result: the CPIC API entry for the G6PD guideline (https://api.cpicpgx.org/v1/guideline, guideline id 2405438, read 26 September 2026) lists two publications, PMID 24787449 (2014) and PMID 36049896 (this one), and this paper's abstract states \"This new document replaces the prior Clinical Pharmacogenetics Implementation Consortium guideline for rasburicase therapy in the context of G6PD genotype\". The 2014 rasburicase guideline is therefore superseded and is not cited here.",
+     "locator": "GENE: G6PD, Background: \"The G6PD gene encodes the G6PD enzyme, which converts glucose-6-phosphate into 6-phosphogluconolactone, the first step of the pentose phosphate pathway (PPP). G6PD produces NADPH from NADP. G6PD is ubiquitously expressed, but it is particularly important in erythrocytes where, along with 6-phosphogluconate dehydrogenase (6PGD), it is the only available source of NADPH. NADPH is required to protect erythrocytes from oxidative stress, which can be imposed by various substances, including oxygen free radicals and hydrogen peroxide, that may be generated physiologically or may result from exposure to exogenous agents such as therapeutic drugs.\" For the two drugs the stem names: Primaquine, Background, \"It is well-established that primaquine, an 8-aminoquinoline antimalarial, confers an increased risk of AHA in G6PD deficient patients\", where AHA is acute hemolytic anemia; and, on dapsone, \"in trials of dapsone in children with G6PD A- (class III), 98% of G6PD deficient males developed AHA, 11% of whom required a blood transfusion\". Cited for that background biochemistry and for the two drugs, not for any of its therapeutic recommendations.",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10281211/"
+    },
+    {
+     "title": "Lee HY, Ithnin A, Azma RZ, Othman A, Salvador A, Cheah FC. Glucose-6-Phosphate Dehydrogenase Deficiency and Neonatal Hyperbilirubinemia: Insights on Pathophysiology, Diagnosis, and Gene Variants in Disease Heterogeneity. Front Pediatr. 2022;10:875877, doi 10.3389/fped.2022.875877 (CC BY; authors, volume, article number and year taken from the Europe PMC machine record for PMC9170901; read 26 September 2026)",
+     "locator": "Pathophysiology, Antioxidants and Gene Variants: \"Importantly, G6PD regenerates the reduced form of nicotinamide adenine dinucleotide phosphate [NADPH]. NADPH acts as a cofactor and reducing agent for enzymes such as glutathione reductase and thioredoxin reductase, catalyzing the reduction of glutathione (GSH) and thioredoxin (Trx), respectively\", and \"These antioxidants reduce hydrogen peroxide and in doing so protect the RBC against oxidative damage.\" Abstract, for the Heinz bodies in the explanation: \"the membrane disruption of red blood cells and Heinz bodies formation in favism\". Cited for the glutathione and Heinz body steps of the explanation, which the two references above do not spell out.",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9170901/"
+    },
+    {
+     "title": "PKLR gene, MedlinePlus Genetics, National Library of Medicine (the page prints \"Last updated April 1, 2012\"; read 26 September 2026)",
+     "locator": "Normal Function, for why_not A: \"pyruvate kinase is involved in the last step of the glycolytic pathway. In this step, a cluster of oxygen and phosphorus atoms (a phosphate group) is moved from a molecule called phosphoenolpyruvate to another molecule called adenosine diphosphate (ADP), resulting in molecules called pyruvate and adenosine triphosphate (ATP). ATP is the cell's main energy source.\" Red cell ATP therefore comes from glycolysis, not from G6PD.",
+     "url": "https://medlineplus.gov/genetics/gene/pklr/"
+    },
+    {
+     "title": "CYB5R3 gene, MedlinePlus Genetics, National Library of Medicine (the page prints \"Last updated May 1, 2015\"; read 26 September 2026)",
+     "locator": "Other Names for This Gene gives \"NADH-cytochrome b5 reductase 3\". Normal Function, for why_not C (superscripts here flattened into plain text): \"The iron in hemoglobin is ferrous (Fe 2+), but it can spontaneously become ferric (Fe 3+). Hemoglobin that contains ferric iron is called methemoglobin, and it cannot deliver oxygen. The soluble isoform of cytochrome b5 reductase 3 changes ferric iron back to ferrous iron so hemoglobin can function.\" That is the NADH-dependent job the distractor names, and it is not the pathway G6PD feeds.",
+     "url": "https://medlineplus.gov/genetics/gene/cyb5r3/"
+    },
+    {
+     "title": "UniProtKB entry P07738 (PMGE_HUMAN), Bisphosphoglycerate mutase, UniProt Consortium (entry version 231, last annotation update 2 September 2026, taken from the entry's own JSON record; read 26 September 2026)",
+     "locator": "Function, for why_not D: \"Plays a major role in regulating hemoglobin oxygen affinity by controlling the levels of its allosteric effector 2,3-bisphosphoglycerate (2,3-BPG).\" Catalytic activity: \"(2R)-3-phospho-glyceroyl phosphate = (2R)-2,3-bisphosphoglycerate + H(+)\", that is, 2,3-BPG is made by this enzyme from a glycolytic intermediate. Nothing in the entry connects it to oxidant defence.",
+     "url": "https://www.uniprot.org/uniprotkb/P07738/entry"
+    },
+    {
      "title": "Lippincott Illustrated Reviews: Biochemistry",
-     "locator": "chapter on the pentose phosphate pathway and NADPH, section on glucose 6-phosphate dehydrogenase deficiency",
+     "locator": "8th edition (Abali, Cline, Franklin and Viselli, Wolters Kluwer, 2022; edition, publisher and year taken from the NLM Catalog record, NLM Unique ID 101771761), chapter on the pentose phosphate pathway and NADPH, section on glucose 6-phosphate dehydrogenase deficiency. The book is paywalled and its chapter body was not opened for this item; it is named as the reading list home of this material, and the open sources above are what carry the fact the options turn on.",
      "url": ""
     }
    ]
@@ -47,7 +77,7 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "CDC, Clinical Care of Mycoplasma pneumoniae Infection (page updated May 2026)",
-     "locator": "treatment section: mycoplasmas lack a cell wall and are inherently resistant to beta-lactams",
+     "locator": "treatment section, read 26 September 2026 (page last updated and last reviewed 18 May 2026): 'All mycoplasmas lack a cell wall and, therefore, are inherently resistant to beta-lactam antibiotics (e.g., penicillin)', with macrolides, tetracycline and fluoroquinolones named as the classes used to treat M. pneumoniae infections.",
      "url": "https://www.cdc.gov/mycoplasma/hcp/clinical-care/index.html"
     },
     {
@@ -56,8 +86,13 @@ window.SAYDANA = {
      "url": "https://www.cdc.gov/mycoplasma/hcp/clinical-overview/index.html"
     },
     {
+     "title": "Amoxicillin capsules, USP, US prescribing information, Hikma Pharmaceuticals USA Inc., label face prints Revised: 3/2026 (DailyMed set id 4fb7837e-964c-4d38-a3a5-b384b1bd6e08, version 23, read 26 September 2026)",
+     "locator": "Section 12.4 Microbiology, Mechanism of Action: 'Amoxicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria.' Resistance: 'Resistance to amoxicillin is mediated primarily through enzymes called beta-lactamases that cleave the beta-lactam ring of amoxicillin, rendering it inactive', which is what why_not B describes.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4fb7837e-964c-4d38-a3a5-b384b1bd6e08"
+    },
+    {
      "title": "Goodman & Gilman's The Pharmacological Basis of Therapeutics",
-     "locator": "chapter on penicillins, cephalosporins and other beta-lactam antibiotics, mechanism of action",
+     "locator": "chapter on penicillins, cephalosporins and other beta-lactam antibiotics, mechanism of action. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read. The deciding facts are carried by the two openable references beside it: CDC states that mycoplasmas lack a cell wall and are therefore inherently resistant to beta-lactams, and the amoxicillin labeling states what amoxicillin inhibits.",
      "url": ""
     },
     {
@@ -88,12 +123,12 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Sunderkötter C, et al. Pathophysiology and clinical manifestations of immune complex vasculitides. Front Med 2023;10:1103065",
-     "locator": "section on serum sickness (onset 7 to 14 days after a foreign protein; complement activation; low C3 and C4)",
+     "locator": "Section on serum sickness disease, read in the Europe PMC full text (PMC10020193) on 26 September 2026: 'Serum sickness disease is a paradigm of a systemic immune complex disease (type III hypersensitivity reaction)', which is the fact the four options turn on; 'Symptoms occur 7-14 days after primary administration (and 2-4 days after repeated administration) of a foreign protein' and 'high levels of circulating immune complexes are detectable after 10-12 days and low levels of C4 and C3 on the 10th day' (ranges rendered here with plain hyphens); and the note that serum sickness follows antithymocyte globulin and other foreign sera used as antidotes.",
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10020193/"
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "chapter on drug allergy and drug hypersensitivity reactions, Gell and Coombs classification",
+     "locator": "chapter on drug allergy and drug hypersensitivity reactions, Gell and Coombs classification. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 12th, DiPiro's Pharmacotherapy: A Pathophysiologic Approach, McGraw Hill, 2023. The deciding fact is carried by the Frontiers in Medicine review beside it, which anyone can open.",
      "url": ""
     },
     {
@@ -115,7 +150,7 @@ window.SAYDANA = {
     "D": "33"
    },
    "answer": "C",
-   "explanation": "The number needed to treat (NNT) is the reciprocal of the absolute risk reduction (ARR). Step 1, event rate in the placebo (control) group: CER = 240 / 2,000 = 0.12, or 12%. Step 2, event rate in the drug (experimental) group: EER = 160 / 2,000 = 0.08, or 8%. Step 3, absolute risk reduction: ARR = CER minus EER = 0.12 minus 0.08 = 0.04, or 4%. Step 4, NNT = 1 / ARR = 1 / 0.04 = 25. So 25 patients must take the drug for 3 years to prevent one major cardiovascular event. An NNT always carries the time frame of the trial, and when 1 / ARR is not a whole number it is rounded up. For comparison, the relative risk is 0.08 / 0.12 = 0.67 and the relative risk reduction is ARR / CER = 0.04 / 0.12 = 0.33, or 33%.",
+   "explanation": "The number needed to treat (NNT) is the reciprocal of the absolute risk reduction (ARR). Step 1, event rate in the placebo (control) group: CER = 240 / 2,000 = 0.12, or 12%. Step 2, event rate in the drug (experimental) group: EER = 160 / 2,000 = 0.08, or 8%. Step 3, absolute risk reduction: ARR = CER minus EER = 0.12 minus 0.08 = 0.04, or 4%. Step 4, NNT = 1 / ARR = 1 / 0.04 = 25. So 25 patients must take the drug for 3 years to prevent one major cardiovascular event. Two reporting conventions sit around that arithmetic. An NNT is quoted with the time frame of the trial that produced it, which is why the answer is 25 patients treated for 3 years and not 25 patients treated for any length of time. And when 1 / ARR is not a whole number, the NNT is rounded up: the Centre for Evidence-Based Medicine at the University of Oxford states that 'NNTs are always rounded up to the nearest whole number', and its worked table reports an NNT of 14.7 as 15. Both are conventions of reporting rather than statements from the Cook and Sackett paper cited below, which defines the NNT as the inverse of the absolute risk reduction. Here 1 / 0.04 is exactly 25, so no rounding is needed. For comparison, the relative risk is 0.08 / 0.12 = 0.67 and the relative risk reduction is ARR / CER = 0.04 / 0.12 = 0.33, or 33%.",
    "why_not": {
     "A": "3 is 1 divided by the relative risk reduction (1 / 0.33). The NNT is calculated from the absolute risk reduction, not the relative risk reduction.",
     "B": "13 is 1 divided by the event rate in the drug group (1 / 0.08 = 12.5, rounded up). The NNT uses the difference between the two groups' event rates, not either rate alone.",
@@ -124,13 +159,18 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "APhA Complete Review for Pharmacy",
-     "locator": "chapter on biostatistics, measures of risk: absolute risk reduction, relative risk reduction and number needed to treat",
+     "locator": "chapter on biostatistics, measures of risk: absolute risk reduction, relative risk reduction and number needed to treat. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read. The deciding fact is carried by the BMJ paper beside it, which anyone can open.",
      "url": ""
     },
     {
      "title": "Cook RJ, Sackett DL. The number needed to treat: a clinically useful measure of treatment effect. BMJ 1995;310(6977):452-4",
-     "locator": "definition of NNT as the reciprocal of the absolute risk reduction",
+     "locator": "Definition of the number needed to treat as the reciprocal of the absolute risk reduction. The abstract, read at PubMed (PMID 7873954) on 26 September 2026, states: 'For clinical decision making, however, it is more meaningful to use the measure \"number needed to treat.\" This measure is calculated on the inverse of the absolute risk reduction.' The full paper is free as scanned pages and as a PDF at PubMed Central, PMC2548824; only the abstract was read for this revision, so only the abstract is quoted here.",
      "url": "https://doi.org/10.1136/bmj.310.6977.452"
+    },
+    {
+     "title": "Centre for Evidence-Based Medicine, University of Oxford, Number Needed to Treat (NNT), EBM tools page (no publication date and no byline printed on the page; read 26 September 2026)",
+     "locator": "Calculation section. It gives NNT = 1/ARR, with ARR = control event rate minus experimental event rate, and then states: 'NNTs are always rounded up to the nearest whole number.' The worked table below it reports 1/0.068 = 14.7 as 15. This is the source for the rounding convention in the explanation, which the Cook and Sackett abstract does not state.",
+     "url": "https://www.cebm.ox.ac.uk/resources/ebm-tools/number-needed-to-treat-nnt"
     }
    ]
   },
@@ -154,8 +194,33 @@ window.SAYDANA = {
    },
    "refs": [
     {
+     "title": "Kim TK. Understanding one-way ANOVA using conceptual figures. Korean J Anesthesiol. 2017;70(1):22-26, doi 10.4097/kjae.2017.70.1.22 (author, volume, issue, pages and year taken from the PubMed record for PMID 28184262 and the Crossref record for the DOI, not from memory; the article was published online 26 January 2017 and prints in the February 2017 issue, so the epub year and the issue year agree; free full text read from Europe PMC 26 September 2026)",
+     "locator": "Introduction, the sentence the answer turns on: \"The differences in the means of two groups that are mutually independent and satisfy both the normality and equal variance assumptions can be obtained by comparing them using a Student's t-test. However, we may have to determine whether differences exist in the means of 3 or more groups. Most readers are already aware of the fact that the most common analytical method for this is the one-way analysis of variance (ANOVA).\" Conclusions, for the assumptions in the stem: \"ANOVA also falls under the category of parametric analysis methods which perform the analysis after defining the distribution of the recruitment population in advance. Therefore, normality, independence, and equal variance of the samples must be satisfied for ANOVA.\" Significance Level Inflation with Table 1, \"Inflation of Significance Level\", whose row for 3 comparisons reads 0.143, which is the \"about 14%\" in why_not A. Post-hoc Test: \"when the null hypothesis that says the population means of three mutually independent groups are the same is rejected, the information that can be obtained is not that the three groups are different from each other... This process is referred to as the post-hoc test.\" Said plainly for the reviewer: this article names Bonferroni's correction and lists \"Turkey, Schéffe, and Holm methods\" (its own spelling), so the explanation's naming of Tukey rests on the NIST page below, not on this sentence.",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5296382/"
+    },
+    {
+     "title": "Kruskal-Wallis Test, Dataplot Reference Manual, NIST/SEMATECH, National Institute of Standards and Technology (the page prints \"Date created: 06/05/2001\" and \"Last updated: 12/11/2023\"; read 26 September 2026)",
+     "locator": "Description, for the first sentence of why_not C: \"The one factor ANOVA tests the hypothesis that k population means are equal. The Kruskal Wallis test can be applied in the one factor ANOVA case. It is a non-parametric test for the situation where the ANOVA normality assumptions may not apply.\"",
+     "url": "https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/kruskwal.htm"
+    },
+    {
+     "title": "NIST/SEMATECH e-Handbook of Statistical Methods, section 7.4.5, \"How can we compare the results of classifying according to several categories?\" (National Institute of Standards and Technology; the page prints no revision date; read 26 September 2026)",
+     "locator": "For why_not D: \"When items are classified according to two or more criteria, it is often of interest to decide whether these criteria act independently of one another... it is customary to display the data by using a cross classification in an array consisting of r rows and c columns called a contingency table.\" The worked example counts 309 wafer defects by type and shift and tests the counts against expected cell frequencies with a chi-square statistic. The chi-square test on this page is applied to counts in categories, never to the means of a continuous variable.",
+     "url": "https://www.itl.nist.gov/div898/handbook/prc/section4/prc45.htm"
+    },
+    {
+     "title": "NIST/SEMATECH e-Handbook of Statistical Methods, section 7.4.7.1, \"Tukey's method\" (National Institute of Standards and Technology; the page prints no revision date; read 26 September 2026)",
+     "locator": "Under 7.4.7 \"How can we make multiple comparisons?\": \"Tukey's method considers all possible pairwise differences of means at the same time. The Tukey method applies simultaneously to the set of all pairwise comparisons.\" Cited only for the last sentence of the explanation, that a post hoc multiple comparison procedure such as Tukey's shows which pairs of groups differ.",
+     "url": "https://www.itl.nist.gov/div898/handbook/prc/section4/prc471.htm"
+    },
+    {
+     "title": "Hopkins SR, Dettori JR, Chapman JR. Parametric and Nonparametric Tests in Spine Research: Why Do They Matter? Global Spine J. 2018;8(6):652-654, doi 10.1177/2192568218782679 (authors, volume, issue, pages and year taken from the Crossref record for the DOI and the article's own JATS XML, not from memory; free full text at PMC6125939, distributed under CC BY-NC-ND; read 26 September 2026)",
+     "locator": "\"What Happens If the Wrong Test Is Used?\", for the second sentence of why_not C: \"With correct assumptions (eg, normal distribution), parametric methods will have more power to detect differences than nonparametric methods.\"",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6125939/"
+    },
+    {
      "title": "Basic Statistics and Pharmaceutical Statistical Applications",
-     "locator": "chapters on one-way analysis of variance, nonparametric tests and chi square tests",
+     "locator": "3rd edition (James E. De Muth, CRC Press, 2014; edition, publisher and year taken from the NLM Catalog record, NLM Unique ID 101636903), chapters on one-way analysis of variance, nonparametric tests and chi square tests. The book is paywalled and its chapter bodies were not opened for this item; it is named as the reading list home of this material, and the open sources above are what carry the answer and each why_not.",
      "url": ""
     }
    ]
@@ -180,8 +245,33 @@ window.SAYDANA = {
    },
    "refs": [
     {
+     "title": "Economic Evaluation Glossary of Terms, Centers for Disease Control and Prevention, Division for Heart Disease and Stroke Prevention (file Economic_Evaluation_Glossary.pdf, downloaded from cdc.gov and read 26 September 2026; the PDF prints no date on its face, and its document properties give a creation date of 12 November 2009 and a last modification of 12 May 2016)",
+     "locator": "The definitions the four options turn on, quoted from the file that was opened, not from an index page. \"Cost-utility analysis (CUA): a type of cost-effectiveness analysis in which benefits are expressed as the number of life years saved adjusted to account for loss of quality from morbidity of the health outcome or side effects from the intervention. The most common measure in CUA is the quality-adjusted life year (QALY)\"; \"Quality adjusted life years (QALYs): a frequently used outcome measure in cost utility analysis that incorporates the quality or desirability of a health state with the duration of survival. The quality of life is integrated with length of life using a multiplicative formula\"; \"Cost effectiveness analysis (CEA): an economic analysis in which all costs are related to a single, common effect\" (why_not B); \"Benefit-cost analysis (BCA): (or cost-benefit analysis) a type of economic analysis in which all costs and benefits are converted into monetary (dollar) values and results are expressed as either the net present value or the dollars of benefits per dollars expended\" (why_not D).",
+     "url": "https://www.cdc.gov/cardiovascular-resources/media/pdfs/Economic_Evaluation_Glossary.pdf"
+    },
+    {
+     "title": "Part V: Cost-Effectiveness Analysis, Outcomes in Natural Units: The Fifth of a Five-Part Series, Centers for Disease Control and Prevention (slide deck with speaker notes, file Economic-Evaluation-Part5.pdf, downloaded from cdc.gov and read 26 September 2026; the deck prints no cover date, and its document properties give a creation date of 25 September 2016 and a last modification of 30 January 2025)",
+     "locator": "Slide 3 and its notes, which carry why_not B in full: \"Unlike a benefit-cost analysis, a cost-effectiveness analysis expresses outcomes in natural health units, such as the number of cardiovascular disease cases prevented or the number of lives saved, instead of converting outcomes to dollars. Because of this major difference, cost-effectiveness analysis must be conducted with interventions or programs that impact the same health outcome.\" That last sentence is exactly why cost per life-year gained would not let this committee compare its result with interventions in other disease areas.",
+     "url": "https://www.cdc.gov/cardiovascular-resources/media/pdfs/Economic-Evaluation-Part5.pdf"
+    },
+    {
+     "title": "Program Evaluation Tip Sheet: Economic Evaluation, Centers for Disease Control and Prevention, Division for Heart Disease and Stroke Prevention (file program_evaluation_tip_sheet_economic_evaluation.pdf, downloaded from cdc.gov and read 26 September 2026; the sheet prints no date on its face, its references were accessed June 2014, and its document properties give a creation date of 17 January 2017)",
+     "locator": "The table \"Key Considerations to Determine Which Form of Economic Evaluation to Use\", which states the comparability the stem asks for: \"Cost-Utility Analysis | Cost per quality-adjusted life-year | For those who want to make a decision between different types of health outcomes (e.g., stroke mortality vs. disability due to injury)\", against \"Cost-Effectiveness Analysis | ... | For those who want to make a decision between interventions that generate the same health outcomes\". The body also states \"Cost-Utility Analysis is a form of cost-effectiveness analysis using quality-adjusted life years as a health outcome\" and \"Cost-Benefit Analysis is a form of economic evaluation that provides both the costs and consequences of the interventions in dollar terms.\"",
+     "url": "https://www.cdc.gov/cardiovascular-resources/media/pdfs/program_evaluation_tip_sheet_economic_evaluation.pdf"
+    },
+    {
+     "title": "Glossary: Definition of Terms, The Community Guide, Community Preventive Services Task Force (no date is printed in the visible text of the page; its HTML metadata gives reviewed \"March 13, 2025\"; read 26 September 2026)",
+     "locator": "For the utility scale in the explanation: \"QALY or Quality-Adjusted Life Year - A health outcome for a disease or health condition that combines the number and quality of life years lived, relative to perfect health. Quality of life is measured on a 0-1 scale, with 1 for perfect health and 0 for death.\" And: \"Cost-Utility Analysis - A type of cost-effectiveness analysis that uses life years saved adjusted for quality of life during those years as a health outcome measure. These measures are called Quality Adjusted Life Years (QALYs).\"",
+     "url": "https://thecommunityguide.org/pages/glossary.html"
+    },
+    {
+     "title": "Bergmo TS. How to Measure Costs and Benefits of eHealth Interventions: An Overview of Methods and Frameworks. J Med Internet Res. 2015;17(11):e254, doi 10.2196/jmir.4521 (CC BY; author, volume, issue, article number and year taken from the Europe PMC machine record for PMC4642791, not from memory; read 26 September 2026)",
+     "locator": "For why_not A, which no CDC source above states in words: \"Cost-minimization analysis (CMA) is a form of economic evaluation comparing the costs of alternative interventions that have equal effects. CMA determines the least costly alternative after the evidence indicates no important differences between the options in health outcome.\"",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4642791/"
+    },
+    {
      "title": "Essentials of Pharmacoeconomics",
-     "locator": "chapters on cost-minimization, cost-effectiveness, cost-utility and cost-benefit analysis",
+     "locator": "3rd edition (Karen L. Rascati, Lippincott Williams & Wilkins, 2021; the NLM Catalog record, NLM Unique ID 101768994, gives the full title as \"Essentials of pharmacoeconomics: health economics and outcomes research\" and the edition, publisher and year), chapters on cost-minimization, cost-effectiveness, cost-utility and cost-benefit analysis. The book is paywalled and its chapter bodies were not opened for this item; it is named as the reading list home of this taxonomy, and the open sources above are what carry the answer and each why_not.",
      "url": ""
     }
    ]
@@ -286,22 +376,32 @@ window.SAYDANA = {
     "D": "The ester protects enalaprilat from breakdown by gastric acid, which would otherwise destroy the diacid in the stomach."
    },
    "answer": "B",
-   "explanation": "Enalapril is an ester prodrug. Enalaprilat, the active angiotensin-converting enzyme (ACE) inhibitor, carries two carboxylic acid groups and is highly ionized and polar at intestinal pH, so it crosses the gut wall poorly; the US prescribing information states that enalaprilat is poorly absorbed when given orally. Converting one of the carboxylic acids into an ethyl ester removes an ionizable group and increases lipophilicity, which improves oral absorption. After absorption, esterases (mainly hepatic) hydrolyze the ester to release enalaprilat, the diacid that binds ACE. This is the classic medicinal chemistry use of an ester prodrug: mask a polar acid so the drug can cross a membrane, then let the body unmask it.",
+   "explanation": "Enalapril is an ester prodrug. The labeling describes enalapril maleate as 'the maleate salt of enalapril, the ethyl ester of a long-acting angiotensin-converting enzyme inhibitor, enalaprilat', and states that 'Enalapril is a pro-drug; following oral administration, it is bioactivated by hydrolysis of the ethyl ester to enalaprilat, which is the active angiotensin-converting enzyme inhibitor'. The two forms are absorbed very differently: the extent of absorption of enalapril is 'approximately 60 percent' of an oral dose, whereas 'enalaprilat is poorly absorbed when administered orally'. The mechanism generally taught for that difference is that enalaprilat, which the labeling elsewhere calls 'the active diacid', carries two carboxylic acid groups that are largely ionized at intestinal pH, leaving a polar molecule that crosses the gut wall poorly. Take that as the standard teaching rather than a quoted fact: the labeling states the poor absorption and does not give a reason for it. The underlying principle is documented. Markovic and colleagues write that 'A key setback when it comes to oral drugs is inadequate intestinal permeability and, consequently, absorption due to low drug lipophilicity', and that the traditional prodrug approach covalently binds the parent drug to 'lipophilic groups (e.g., alkyl, aryl) in order to improve passive permeability'. Esterifying one of enalaprilat's two acids does that: an ionizable group is masked and lipophilicity rises. After absorption, carboxylesterase 1, mainly in the liver, hydrolyzes the ester and releases enalaprilat, the diacid that inhibits ACE. This is the classic medicinal chemistry use of an ester prodrug: mask a polar acid so the drug can cross a membrane, then let the body unmask it.",
    "why_not": {
     "A": "Enalaprilat, not the ester, is the active and more potent ACE inhibitor. Hydrolysis activates the drug; it does not inactivate it.",
     "C": "Enalapril is activated by hydrolysis of its ester bond by esterases, not by CYP3A4 oxidation. Confusing hydrolytic activation with CYP-mediated activation (as with clopidogrel) is a common error.",
-    "D": "Enalaprilat is not given orally because it is poorly absorbed across the gut wall, owing to its ionized acid groups, as the labeling states. The ester is there to improve absorption, not to protect against gastric acid, which is the job of an enteric coating."
+    "D": "Enalaprilat is not given orally because it is poorly absorbed across the gut wall, which the labeling states. The ester is there to improve absorption, not to protect the diacid from stomach acid, which is the job of an enteric coating."
    },
    "refs": [
     {
-     "title": "US FDA prescribing information for enalapril maleate tablets (2018 label)",
-     "locator": "Description; Clinical Pharmacology, pharmacokinetics and metabolism",
+     "title": "VASOTEC (enalapril maleate) tablets, FDA-approved prescribing information, Drugs@FDA document 018998s083lbl.pdf (2018 label folder; the label face prints no usable revision date, see locator), read 26 September 2026",
+     "locator": "Description; Clinical Pharmacology, Pharmacokinetics and Metabolism; Carcinogenesis section, read 26 September 2026. Description: 'VASOTEC (Enalapril Maleate) is the maleate salt of enalapril, the ethyl ester of a long-acting angiotensin-converting enzyme inhibitor, enalaprilat' and 'Enalapril is a pro-drug; following oral administration, it is bioactivated by hydrolysis of the ethyl ester to enalaprilat, which is the active angiotensin-converting enzyme inhibitor'. Pharmacokinetics: 'Based on urinary recovery, the extent of absorption of enalapril is approximately 60 percent' and 'Following absorption, enalapril is hydrolyzed to enalaprilat, which is a more potent angiotensin-converting enzyme inhibitor than enalapril; enalaprilat is poorly absorbed when administered orally'. The Carcinogenesis, Mutagenesis, Impairment of Fertility section calls enalaprilat 'the active diacid', which is the source for enalaprilat carrying two carboxylic acid groups. The labeling does not name the hydrolyzing enzyme or its site, and gives no reason for the poor oral absorption of enalaprilat, which is why the explanation labels the ionization mechanism as the one generally taught. The label face prints no revision date to cite: its last page reads 'Rev. XX/201X' and 'Update p/n', unfilled placeholders, so the document is identified by its Drugs@FDA filename and folder year instead.",
      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/018998s083lbl.pdf"
     },
     {
      "title": "Lippincott Illustrated Reviews: Pharmacology",
-     "locator": "chapter on antihypertensives, angiotensin-converting enzyme inhibitors section",
+     "locator": "chapter on antihypertensives, angiotensin-converting enzyme inhibitors section. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 8th (Whalen, Wolters Kluwer, October 2022). The deciding facts are carried by three openable references beside it: the enalapril labeling for the ester prodrug and the poor oral absorption of enalaprilat, the Journal of Personalized Medicine paper for the hepatic carboxylesterase that does the hydrolysis, and the Pharmaceutics review for the lipophilicity principle.",
      "url": ""
+    },
+    {
+     "title": "Ikonnikova A, Rodina T, Dmitriev A, Melnikov E, Kazakov R, Nasedkina T. The Influence of the CES1 Genotype on the Pharmacokinetics of Enalapril in Patients with Arterial Hypertension. Journal of Personalized Medicine 2022;12(4):580, doi 10.3390/jpm12040580 (open access, CC BY; full text read at Europe PMC, PMC9028383, on 26 September 2026)",
+     "locator": "Abstract, first sentence: 'The angiotensin-converting enzyme inhibitor enalapril is hydrolysed to an active metabolite, enalaprilat, in the liver via carboxylesterase 1 (CES1).' This is the source for the clause in the correct option that esterases, mainly in the liver, carry out the hydrolysis.",
+     "url": "https://doi.org/10.3390/jpm12040580"
+    },
+    {
+     "title": "Markovic M, Ben-Shabat S, Dahan A. Prodrugs for Improved Drug Delivery: Lessons Learned from Recently Developed and Marketed Products. Pharmaceutics 2020;12(11):1031, doi 10.3390/pharmaceutics12111031 (open access, CC BY; full text read at Europe PMC, PMC7692606, on 26 September 2026)",
+     "locator": "Section 1, Introduction: the traditional prodrug approach includes covalent binding of the parent drug to 'lipophilic groups (e.g., alkyl, aryl) in order to improve passive permeability'. Section 3, Clinical Prodrugs for Oral Drug Delivery: 'A key setback when it comes to oral drugs is inadequate intestinal permeability and, consequently, absorption due to low drug lipophilicity', and, in the same section, enalapril is 'a well-known model angiotensin-converting enzyme inhibitor (ACEI) prodrug, activated by carboxylesterase 1'. This carries the general principle in the correct option, that masking a polar acid as an ester improves absorption.",
+     "url": "https://doi.org/10.3390/pharmaceutics12111031"
     }
    ]
   },
@@ -326,12 +426,12 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "US FDA prescribing information for apixaban tablets (2025 label)",
-     "locator": "section 12.1 Mechanism of Action",
+     "locator": "Section 12.1 Mechanism of Action, read 26 September 2026: 'Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity.'",
      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/202155s039s040lbl.pdf"
     },
     {
      "title": "Lippincott Illustrated Reviews: Pharmacology",
-     "locator": "chapter on anticoagulants and antiplatelet agents, direct oral factor Xa inhibitors section",
+     "locator": "chapter on anticoagulants and antiplatelet agents, direct oral factor Xa inhibitors section. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 8th (Whalen, Wolters Kluwer, October 2022). The deciding fact is carried by the apixaban labeling beside it, which anyone can open.",
      "url": ""
     }
    ]
@@ -357,12 +457,12 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "US FDA prescribing information for fomepizole injection (2020 label)",
-     "locator": "Clinical Pharmacology, mechanism of action; Indications and Usage",
+     "locator": "Clinical Pharmacology, Mechanism of Action, read 26 September 2026: 'Antizol (fomepizole) is a competitive inhibitor of alcohol dehydrogenase. Alcohol dehydrogenase catalyzes the oxidation of ethanol to acetaldehyde. Alcohol dehydrogenase also catalyzes the initial steps in the metabolism of ethylene glycol and methanol to their toxic metabolites', with 'Glycolate and oxalate are the metabolic byproducts primarily responsible for the metabolic acidosis and renal damage seen in ethylene glycol toxicosis'; Indications and Usage.",
      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/020696s006lbl.pdf"
     },
     {
      "title": "Goodman & Gilman's The Pharmacological Basis of Therapeutics",
-     "locator": "13th edition, Chapter 4, Drug Toxicity and Poisoning (antidotes)",
+     "locator": "13th edition, Chapter 4, Drug Toxicity and Poisoning (antidotes). Background only: the chapter body was not opened, so it is not cited as read. McGraw Hill gives the 13th edition a copyright of 2018 (published October 2017) and has since published a 14th edition (2023). The deciding fact is carried by the fomepizole labeling beside it, which anyone can open.",
      "url": ""
     }
    ]
@@ -460,13 +560,18 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "US FDA prescribing information for nifedipine extended-release tablets, osmotic system (label revised 2014)",
-     "locator": "Description; Precautions, Information for Patients; Dosage and Administration",
+     "locator": "Description, read 26 September 2026: the tablet 'consists, however, of a semipermeable membrane surrounding an osmotically active drug core', which releases drug 'through the precision laser-drilled tablet orifice'; Precautions, Information for Patients: 'PROCARDIA XL Extended Release Tablets should be swallowed whole. Do not chew, divide or crush tablets'; Dosage and Administration: the tablets 'should be swallowed whole and should not be bitten or divided'; Warnings, Excessive Hypotension, for the consequence of too much nifedipine at once.",
      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2015/019684s029lbl.pdf"
     },
     {
      "title": "Aulton, Pharmaceutics: The Science of Dosage Form Design",
-     "locator": "chapter on modified-release oral drug delivery",
+     "locator": "chapter on modified-release oral drug delivery. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 7th (Taylor and Aulton, Elsevier, published July 2026, copyright 2027). The deciding facts are carried by the two openable references beside it: the nifedipine labeling for the osmotic release system and the instruction not to crush, and the EMA quality guideline for what manipulating a modified release product does.",
      "url": ""
+    },
+    {
+     "title": "European Medicines Agency, Guideline on quality of oral modified release products, EMA/CHMP/QWP/428693/2013, final, document dated 20 March 2014 (PDF opened and read 26 September 2026)",
+     "locator": "Section 2.1.2, Therapeutic objectives and principle of the release system: 'In general, prolonged release oral dosage forms should not have a score line because subdivision or other manipulation of modified release products may adversely affect the modified release properties of the dosage form, possibly leading to dose dumping.' This is the step the correct option turns on, that destroying the release-controlling system releases the dose at once.",
+     "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-quality-oral-modified-release-products_en.pdf"
     }
    ]
   },
@@ -490,8 +595,23 @@ window.SAYDANA = {
    },
    "refs": [
     {
+     "title": "Birkett DJ. Pharmacokinetics made easy 11 Designing dose regimens. Aust Prescr. 1996;19(3):76-78, doi 10.18773/austprescr.1996.069 (free full text; volume, issue, pages and year taken from the Crossref record for the DOI, not from memory; article page read 26 September 2026)",
+     "locator": "The sentences that carry the first sentence of the explanation, that the time to approach steady state is set by the half-life and not by the infusion rate: \"Given as a continuous infusion, the drug accumulates to a steady state concentration (Css) determined only by the dose rate and clearance (CL)\", and \"The time to reach steady state is determined by the half-life (3-5 half-lives, see Article 3 'Half-life' Aust Prescr 1988; 11:57-9).\" Said plainly for the reviewer: Article 3 of the series, where Birkett works the 0.693 relation, is not on the Australian Prescriber website (only articles 9, 10 and 11 of the series are posted), so that relation is carried by the next reference rather than by this one.",
+     "url": "https://australianprescriber.tg.org.au/articles/pharmacokinetics-made-easy-11-designing-dose-regimens.html"
+    },
+    {
+     "title": "Gatti M, Pea F. Antimicrobial Dose Reduction in Continuous Renal Replacement Therapy: Myth or Real Need? A Practical Approach for Guiding Dose Optimization of Novel Antibiotics. Clin Pharmacokinet. 2021;60(10):1271-1289, doi 10.1007/s40262-021-01040-y (CC BY-NC; authors, volume, issue, pages and year taken from the Europe PMC machine record for PMC8505328, not from memory; read 26 September 2026)",
+     "locator": "Methods, the sentence that states step 1 of the calculation in words (the formula is printed with subscripts and is rendered here in plain text): \"half-life was calculated as t1/2 = 0.693/kel, where kel is the elimination rate constant\". That is 0.693 / 0.0866 per hour = 8.0 hours, and it is the relation why_not D turns on, where 1/k is used instead of 0.693/k.",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8505328/"
+    },
+    {
+     "title": "Yousef M, Yáñez JA, Löbenberg R, Davies NM. Upholding or Breaking the Law of Superposition in Pharmacokinetics. Biomedicines. 2024;12(8):1843, doi 10.3390/biomedicines12081843 (CC BY; authors, volume, issue, article number and year taken from the Crossref record for the DOI, not from memory; read 26 September 2026). Currency check on the file itself: a correction has been published, Biomedicines 2025;13(8):1797, doi 10.3390/biomedicines13081797, and it was read in full on 26 September 2026. It removes a duplicated \"Dose 1\" row from Table 1 and rewrites one paragraph of section 2.2, states \"The authors state that the scientific conclusions are unaffected\", and does not touch either sentence quoted below.",
+     "locator": "Section on multiple dosing, for step 2 of the calculation (the worked line below is printed with subscripts and a superscript minus and is rendered here in plain text): \"For the majority of drugs, reaching a steady state typically takes about five half-lives. The time required to attain a steady state in a repeat-dose regimen is governed exclusively by the half-life of the drug and the dosing interval.\" The same section works the elimination rate constant as \"kel = 0.693/t1/2 = 0.693/4 h = 0.17 h-1\", which is the relation above rearranged.",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11351987/"
+    },
+    {
      "title": "Applied Biopharmaceutics & Pharmacokinetics",
-     "locator": "7th edition: Chapter 6, Intravenous Infusion (steady state and time to reach a fraction of steady state); Chapter 4, One-Compartment Open Model: Intravenous Bolus Administration (elimination half-life)",
+     "locator": "7th edition: Chapter 6, Intravenous Infusion (steady state and time to reach a fraction of steady state); Chapter 4, One-Compartment Open Model: Intravenous Bolus Administration (elimination half-life). Those chapter numbers were taken from the publisher's table of contents for the 7th edition, read by the reviewer on 2026-09-21; the current printing is the 8th edition (Ducharme and Shargel, McGraw Hill, 2022, per the NLM Catalog). Both chapters are paywalled and neither body was opened, for this item or for the review; the book is named as the reading list home of this material and the open sources above are what carry the two relations the options turn on. The remaining step needs no source at all: given the first-order elimination the stem specifies, the fraction of steady state reached after n half-lives is 1 - (0.5)^n, so 5 half-lives gives 1 - 0.03125 = 0.969, and 5 x 8.0 hours = 40 hours. A reader checks that with a calculator, and the same number comes out of 1 - e^(-0.0866 x 40) = 0.969.",
      "url": ""
     }
    ]
@@ -517,12 +637,12 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "EMA, Guideline on the Investigation of Bioequivalence, CPMP/EWP/QWP/1401/98 Rev. 1 (effective 1 August 2010; parts on non-replicate study design superseded by ICH M13A from 25 January 2025)",
-     "locator": "section 4.1.8, parameters to be analysed and acceptance limits; sections 4.1.9 and 4.1.10",
+     "locator": "Section 4.1.8 Evaluation, subsection Parameters to be analysed and acceptance limits, read in the PDF on 26 September 2026: 'In studies to determine bioequivalence after a single dose, the parameters to be analysed are AUC(0-t), or, when relevant, AUC(0-72h), and Cmax. For these parameters the 90% confidence interval for the ratio of the test and reference products should be contained within the acceptance interval of 80.00-125.00%. To be inside the acceptance interval the lower bound should be at least 80.00% when rounded to two decimal places and the upper bound should be no more than 125.00% when rounded to two decimal places' (the two comparison signs rendered here in words). Section 4.1.9 narrow therapeutic index drugs and section 4.1.10 highly variable drugs, where widening Cmax to a maximum of 69.84 to 143.19% requires a replicate design and within-subject variability above 30%, are the two exceptions the stem rules out.",
      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-investigation-bioequivalence-rev1_en.pdf"
     },
     {
      "title": "Applied Biopharmaceutics & Pharmacokinetics",
-     "locator": "7th edition, Chapter 16, Drug Product Performance, In Vivo: Bioavailability and Bioequivalence (statistical evaluation)",
+     "locator": "7th edition, Chapter 16, Drug Product Performance, In Vivo: Bioavailability and Bioequivalence (statistical evaluation). Background only: the chapter body was not opened, so it is not cited as read, and no year for this edition was confirmed from the publisher. McGraw Hill's current edition is the 8th, Shargel and Yu's Applied Biopharmaceutics and Pharmacokinetics, edited by Ducharme and Shargel, 2022. The deciding fact is carried by the EMA guideline beside it, which anyone can open.",
      "url": ""
     }
    ]
@@ -548,7 +668,7 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Pharmaceutical Calculations",
-     "locator": "chapter on dilution, concentration and alligation, alligation alternate",
+     "locator": "15th edition (Howard C. Ansel and Shelly J. Stockton, Wolters Kluwer, 2017; edition, publisher and year taken from the NLM Catalog record, NLM Unique ID 101669996), chapter on dilution, concentration and alligation, section on alligation alternate. The chapter body was not opened for this item, and it does not need to be, because nothing in this item is taken from a source. Every number is supplied by the stem and the reader checks the answer with a calculator, not with a reference: 15 g of the 2.5% cream supplies 15 x 0.025 = 0.375 g of hydrocortisone, 45 g of the 0.5% cream supplies 45 x 0.005 = 0.225 g, and 0.375 + 0.225 = 0.600 g of hydrocortisone in 60 g of cream, which is 1.00% w/w, the strength the prescription calls for. The same check falsifies each distractor: 24 g plus 36 g gives 0.60 + 0.18 = 0.78 g, or 1.3%; 30 g plus 30 g gives 0.75 + 0.15 = 0.90 g, or 1.5%; 45 g of the 2.5% cream plus 15 g of the 0.5% cream gives 1.125 + 0.075 = 1.20 g, or 2.0%. No external constant of any kind enters the working, so there is no fact here for an outside source to state. Alligation alternate is named as the standard method and this chapter as its reading list home.",
      "url": ""
     }
    ]
@@ -614,13 +734,38 @@ window.SAYDANA = {
    },
    "refs": [
     {
+     "title": "Koller AK, Krebs S, Dörje F. Medication Safety in Intravenous Therapy: A Compatibility Study of Clonidine with Drugs Frequently Used in Intensive Care. Pharmaceutics. 2020;13(1):21, doi 10.3390/pharmaceutics13010021 (CC BY; authors, volume, issue and article number taken from the Crossref and Europe PMC machine records for PMC7824220, not from memory. On the date, what the machine records say and nothing more: Crossref gives the online publication date as 24 December 2020 and no print date, Europe PMC and PubMed both record the year as 2020, and the article carries volume 13, issue 1. The publisher's own article page at mdpi.com, which would print the citation line the journal uses, refused an automated reader with 403 on 26 September 2026, so no issue year beyond 2020 is asserted here. Article read 26 September 2026)",
+     "locator": "Introduction, the sentence that states in words what the answer turns on, that Trissel's is a reference you consult for Y-site compatibility: \"As the number of independent catheter lines of a central venous catheter is limited, the Y-site compatibility of the coadministered drugs is of utmost importance... Despite the widespread use of clonidine, very little information is available on the compatibility of clonidine with other drugs in international databases such as UpToDate, Trissel's Handbook on Injectable Drugs, Stabilis, or international literature.\"",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7824220/"
+    },
+    {
+     "title": "Nilsson N, Nezvalova-Henriksen K, Bøtker JP, Højmark Andersen N, Strøm Larsen B, Rantanen J, Tho I, Brustugun J. Co-administration of Intravenous Drugs: Rapidly Troubleshooting the Solid Form Composition of a Precipitate in a Multi-drug Mixture Using On-Site Raman Spectroscopy. Mol Pharm. 2023;20(6):2853-2863, doi 10.1021/acs.molpharmaceut.2c00983 (CC BY; authors, volume, issue, pages and year taken from the Europe PMC machine record for PMC10245374, not from memory; read 26 September 2026)",
+     "locator": "Introduction: \"The existing compatibility studies and databases, such as Trissel's Handbook on Injectable Drugs, IV compatibility via Micromedex and Stabilis, cover for the most part pairs of drugs.\" The reference list gives the book itself as \"Trissel L. A. Handbook on Injectable Drugs, 18 ed.; American Society of Health System Pharmacists: Bethesda, 2014\", which is where the title, author and publisher in the option come from.",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10245374/"
+    },
+    {
+     "title": "Orange Book Preface, Approved Drug Products with Therapeutic Equivalence Evaluations, US Food and Drug Administration (the page prints \"Content current as of: 01/15/2026\"; read 26 September 2026)",
+     "locator": "For why_not A, in the regulator's own words: \"the Orange Book contains therapeutic equivalence evaluations for approved multisource prescription drug products. These evaluations have been prepared to serve as public information and advice to state health agencies, prescribers, and pharmacists to promote public education in the area of drug product selection and to foster containment of healthcare costs.\" The therapeutic equivalence codes section adds that products with \"no known or suspected bioequivalence problems\" are designated AA, AN, AO, AP or AT, and that products whose \"actual or potential bioequivalence problems have been resolved with adequate in vivo and/or in vitro evidence supporting bioequivalence... are designated AB.\" Nothing in the preface concerns intravenous compatibility.",
+     "url": "https://www.fda.gov/drugs/development-approval-process-drugs/orange-book-preface"
+    },
+    {
+     "title": "Rutter PM, Jones W. Enquiry analysis and user opinion of the Drugs in Breastmilk Helpline: a prospective study. Int Breastfeed J. 2012;7(1):6, doi 10.1186/1746-4358-7-6 (CC BY; authors, volume, issue, article number and year taken from the Europe PMC machine record for PMC3453512, not from memory; read 26 September 2026)",
+     "locator": "For why_not B: the paper lists the sources a medicines in pregnancy and breastfeeding service works from, \"specialist breastfeeding references, for example Hale's Medications and Mother's Milk, LactMed (an online database from The National Library of Medicine), Briggs et al's Drugs in Pregnancy and Lactation and Martindale The Extra Pharmacopoeia\", and its reference list gives the book's own subtitle, which states its scope: \"Briggs G, Freeman RK, Yaffe SJ. Drugs in Pregnancy and Lactation: A Reference Guide to Fetal and Neonatal Risk (8th edition) Lippincott Williams & Wilkins, Philadelphia; 2008.\" It also gives Martindale's publisher and title, \"Royal Pharmaceutical Society. Martindale: The Complete Drug Reference (36th edition) Pharmaceutical Press, London; 2009.\"",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3453512/"
+    },
+    {
+     "title": "Sakai T, Mori C, Ohtsu F. Potential safety signal of pregnancy loss with vascular endothelial growth factor inhibitor intraocular injection: A disproportionality analysis using the Food and Drug Administration Adverse Event Reporting System. Front Pharmacol. 2022;13:1063625, doi 10.3389/fphar.2022.1063625 (CC BY; authors, volume, article number and year taken from the Europe PMC machine record for PMC9684212, not from memory; read 26 September 2026)",
+     "locator": "For why_not C, an example of what Martindale is actually used for: \"For drug names not included in these dictionaries, dictionaries were created based on the Summary of Product Characteristics for each product, as well as on drug information databases such as Martindale and MIMS.\" Martindale is reached here to identify drug products and their ingredients across countries, which is the use the option describes, and not for injectable compatibility. Said plainly for the reviewer: this is a use of Martindale rather than a description of it, and Pharmaceutical Press's own product page could not be opened on 26 September 2026 (the URL returned 404 and the ASHP publications site returned 403 to an automated reader), so no publisher description of either Martindale or the Handbook on Injectable Drugs is cited here.",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9684212/"
+    },
+    {
      "title": "APhA Complete Review for Pharmacy",
-     "locator": "Drug information chapter, section on drug information resources and the questions each answers",
+     "locator": "12th edition (Peter A. Chyka, editor-in-chief, American Pharmacists Association, 2018; edition, publisher and year taken from the NLM Catalog record, NLM Unique ID 101709622), drug information chapter, section on drug information resources and the questions each answers. The book is paywalled and its chapter body was not opened for this item; it is named as the reading list home of the skill the item tests, classifying a request and then choosing the resource built for that class, and the open sources above are what carry the scope of each of the four named references.",
      "url": ""
     },
     {
      "title": "Comprehensive Pharmacy Review",
-     "locator": "Drug information resources chapter, specialised references (injectable drug compatibility and stability)",
+     "locator": "7th edition (Leon Shargel and others, editors, Wolters Kluwer / Lippincott Williams & Wilkins, 2010; edition, publisher and year taken from the NLM Catalog record, NLM Unique ID 101481146; the later printing is titled Comprehensive Pharmacy Review for NAPLEX, 8th edition, 2013), drug information resources chapter, specialised references for injectable drug compatibility and stability. The book is paywalled and its chapter body was not opened for this item.",
      "url": ""
     }
    ]
@@ -646,12 +791,12 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "LANOXIN (digoxin) tablets, FDA-approved prescribing information, revised 12/2016",
-     "locator": "Section 2.5 Monitoring (timing of serum digoxin concentrations) and section 12.3 Pharmacokinetics (distribution)",
+     "locator": "Section 2.5 Monitoring to Assess Safety, Efficacy, and Therapeutic Blood Levels, read in the PDF on 26 September 2026: 'Obtain serum digoxin concentrations just before the next scheduled LANOXIN dose or at least 6 hours after the last dose', with 'Serum digoxin levels less than 0.5 ng/mL have been associated with diminished efficacy, while levels above 2 ng/mL have been associated with increased toxicity without increased benefit'; section 12.3 Pharmacokinetics, Distribution: 'Following drug administration, a 6-8 hour tissue distribution phase is observed.'",
      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/020405s013lbl.pdf"
     },
     {
      "title": "Lexicomp",
-     "locator": "Digoxin monograph, monitoring parameters (timing of serum concentrations)",
+     "locator": "Digoxin monograph, monitoring parameters (timing of serum concentrations). Background only: Lexicomp is a subscription database and the monograph was not opened for this item, so it is not cited as read. The deciding fact is carried by the LANOXIN labeling beside it, which anyone can open.",
      "url": ""
     }
    ]
@@ -668,7 +813,7 @@ window.SAYDANA = {
     "D": "Give an intravenous loading dose of fosphenytoin, then continue 300 mg daily."
    },
    "answer": "C",
-   "explanation": "Phenytoin is about 90% bound to albumin, and only the unbound (free) drug is active. When albumin is low, the free fraction rises, so a total concentration that looks low can correspond to a normal free concentration. The usual total range of 10 to 20 mg/L assumes normal albumin (the corresponding free range is about 1 to 2 mg/L). The Winter-Tozer (Sheiner-Tozer) equation, for patients with normal kidney function, estimates the total concentration he would have at normal albumin. Step 1: adjusted concentration = measured concentration / ((0.2 x albumin in g/dL) + 0.1). Step 2: 0.2 x 2.0 = 0.4, and 0.4 + 0.1 = 0.5. Step 3: 8 / 0.5 = 16 mg/L. An adjusted value of 16 mg/L is within the usual range and matches his clinical picture: seizure-free and without toxicity. Raising the dose could push the free concentration into the toxic range. The equation is only an estimate (a revised version for samples assayed at room temperature gives a somewhat lower figure that is still within range), so where available a measured free phenytoin concentration is the best confirmation. The dose decision follows the patient and the free drug, not the unadjusted total.",
+   "explanation": "Phenytoin is highly bound to plasma protein and only the unbound (free) drug is active. Krasowski and Penrod take the free fraction as about 10%, which is why the usual total range of 10 to 20 mg/L corresponds to a free range of 1 to 2 mg/L. A low albumin raises the free fraction, so a total concentration that looks low can sit with a normal free concentration. The Winter-Tozer (Sheiner-Tozer) equation estimates the total concentration he would have if his albumin were normal. Step 1: adjusted concentration = measured concentration / ((0.2 x albumin in g/dL) + 0.1). Step 2: 0.2 x 2.0 = 0.4, and 0.4 + 0.1 = 0.5. Step 3: 8 / 0.5 = 16 mg/L. An adjusted value of 16 mg/L is within the usual range and matches his clinical picture: seizure-free and without toxicity. Raising the dose could push the free concentration into the toxic range, the more so because phenytoin's metabolism is saturable. The correction covers albumin and nothing else: Krasowski and Penrod note that 'other factors such as uremia or drug-drug interactions (e.g., inhibition of phenytoin metabolism by valproic acid) can also alter the free fraction of PHT', which is why the stem tells you his kidney function is normal. It is also only an estimate. Anderson and colleagues, who set out to revise it for unbound phenytoin measured at room temperature, reported that 'The Winter-Tozer equation consistently overpredicted the normalized phenytoin concentration' in the elderly nursing home patients and the trauma patients they studied, so the true adjusted figure may be lower than 16 mg/L; their full text is subscription only and was not opened, so the revised equation is not worked here. Where it can be obtained, a measured free phenytoin concentration is the best confirmation. Either way the dose decision follows the patient and the free drug, not the unadjusted total: he is seizure-free with no signs of toxicity, so there is nothing to gain by raising the dose.",
    "why_not": {
     "A": "The total concentration understates his active (free) concentration because of hypoalbuminemia. A 100 mg increase could cause toxicity, especially because phenytoin's saturable metabolism can make a modest dose increase produce a disproportionate rise in concentration.",
     "B": "Small increments are the right way to raise a phenytoin dose when an increase is needed, because its metabolism is saturable. Here no increase is needed: the albumin-adjusted concentration is within range and he is seizure-free.",
@@ -677,18 +822,23 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Koda-Kimble and Young's Applied Therapeutics: The Clinical Use of Drugs",
-     "locator": "Seizure disorders chapter, phenytoin: interpreting serum concentrations in hypoalbuminemia",
+     "locator": "Seizure disorders chapter, phenytoin: interpreting serum concentrations in hypoalbuminemia. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 12th, now titled Applied Therapeutics: The Clinical Use of Drugs (Zeind and others, Wolters Kluwer, January 2023).",
      "url": ""
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "Epilepsy chapter, phenytoin pharmacokinetics, protein binding and therapeutic drug monitoring",
+     "locator": "Epilepsy chapter, phenytoin pharmacokinetics, protein binding and therapeutic drug monitoring. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 12th, DiPiro's Pharmacotherapy: A Pathophysiologic Approach, McGraw Hill, 2023. The equation the item turns on is carried by the open access reference below, which anyone can open.",
      "url": ""
     },
     {
-     "title": "Anderson GD, et al. Revised Winter-Tozer equation for normalized phenytoin concentrations in trauma and elderly patients with hypoalbuminemia. Ann Pharmacother 1997;31:279-84",
-     "locator": "Background and results (original and revised equations)",
+     "title": "Anderson GD, Pak C, Doane KW, Griffy KG, Temkin NR, Wilensky AJ, Winn HR. Revised Winter-Tozer equation for normalized phenytoin concentrations in trauma and elderly patients with hypoalbuminemia. Ann Pharmacother 1997;31(3):279-84",
+     "locator": "Abstract only, free at PubMed (PMID 9066931), read 26 September 2026, which is also where the authorship, issue and page numbers above were taken from: the objective was 'To develop a revised equation reflecting the current practice of measuring unbound phenytoin at room temperature', and the result that 'The Winter-Tozer equation consistently overpredicted the normalized phenytoin concentration' in elderly nursing home patients and in trauma patients. The full text is subscription only and was not opened, so the revised equation itself is not cited from it.",
      "url": "https://doi.org/10.1177/106002809703100301"
+    },
+    {
+     "title": "Krasowski MD, Penrod LE. Clinical decision support of therapeutic drug monitoring of phenytoin: measured versus adjusted phenytoin plasma concentrations. BMC Medical Informatics and Decision Making 2012;12:7, doi 10.1186/1472-6947-12-7 (open access, CC BY; full text read at Europe PMC, PMC3312854, on 26 September 2026)",
+     "locator": "Methods, Sheiner-Tozer calculation (formula rendered here in plain text): 'The Sheiner-Tozer equation is expressed as: PHTadj_free = PHTtotal / ((0.2 x Albumin) + 0.1) / 10, with PHT plasma concentrations in units of mg/L and albumin plasma concentrations (Albumin) in units of g/dL. This assumes an estimated free fraction of PHT of 10%.' The article divides by 10 to give an adjusted free concentration where the item stops at the adjusted total; the denominator, 0.2 times albumin in g/dL plus 0.1, is the same and is the step the options turn on. Background section: 'the usual therapeutic range for plasma total PHT concentration (PHTtotal) considered to be 10-20 mg/L' and 'The therapeutic range for free PHT plasma concentrations (PHTfree) is generally considered to be 1-2 mg/L', which are the two ranges the explanation uses. Background section also states that hypoalbuminemia leads 'to an increased free PHT fraction, although other factors such as uremia or drug-drug interactions (e.g., inhibition of phenytoin metabolism by valproic acid) can also alter the free fraction of PHT', which is the source for the sentence in the explanation that the correction covers albumin alone. The paper states no qualification of the equation by kidney function and prints no renal-failure variant of it.",
+     "url": "https://doi.org/10.1186/1472-6947-12-7"
     }
    ]
   },
@@ -713,7 +863,7 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "CPIC Guideline for HLA Genotype and Use of Carbamazepine and Oxcarbazepine: 2017 Update (Clin Pharmacol Ther 2018;103:574-581)",
-     "locator": "Therapeutic recommendations for HLA-B*15:02 carriers (carbamazepine-naive and oxcarbazepine-naive patients)",
+     "locator": "Therapeutic recommendations for HLA-B*15:02 carriers, read at PubMed Central (PMC5847474) on 26 September 2026: for a patient positive for HLA-B*15:02 who has not taken the drug before, the recommendation is not to use carbamazepine, and the same recommendation is given for oxcarbazepine in an oxcarbazepine-naive carrier.",
      "url": "https://doi.org/10.1002/cpt.1004"
     },
     {
@@ -723,7 +873,7 @@ window.SAYDANA = {
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "Epilepsy chapter, carbamazepine adverse effects and HLA-B*15:02 screening",
+     "locator": "Epilepsy chapter, carbamazepine adverse effects and HLA-B*15:02 screening. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 12th, DiPiro's Pharmacotherapy: A Pathophysiologic Approach, McGraw Hill, 2023. The deciding fact is carried by the two CPIC guidelines beside it, whose free full texts are in PubMed Central (PMC5847474 and PMC7831382).",
      "url": ""
     }
    ]
@@ -776,7 +926,7 @@ window.SAYDANA = {
     "D": "37 mL/min"
    },
    "answer": "B",
-   "explanation": "The Cockcroft-Gault equation estimates creatinine clearance (CrCl) from age, weight and a stable serum creatinine (SCr, in mg/dL), with a 0.85 correction factor for women. Her actual weight equals her ideal body weight, so 50 kg is used. Step 1: CrCl = ((140 - age) x weight in kg) / (72 x SCr), then x 0.85 for a woman. Step 2: 140 - 76 = 64. Step 3: 64 x 50 = 3200. Step 4: 72 x 1.4 = 100.8. Step 5: 3200 / 100.8 = 31.7 mL/min. Step 6: 31.7 x 0.85 = 26.9 mL/min, so about 27 mL/min. Check in SI units (SCr 124 micromol/L, female constant 1.04): (64 x 50 x 1.04) / 124 = 3328 / 124 = 26.8 mL/min, the same answer. This estimate is what she would be dosed on for renally cleared drugs.",
+   "explanation": "The Cockcroft-Gault equation estimates creatinine clearance (CrCl) from age, weight and a stable serum creatinine (SCr, in mg/dL), with a 0.85 correction factor for women. Her actual weight equals her ideal body weight, so 50 kg is used. Step 1: CrCl = ((140 - age) x weight in kg) / (72 x SCr), then x 0.85 for a woman. Step 2: 140 - 76 = 64. Step 3: 64 x 50 = 3200. Step 4: 72 x 1.4 = 100.8. Step 5: 3200 / 100.8 = 31.7 mL/min. Step 6: 31.7 x 0.85 = 26.9 mL/min, so about 27 mL/min. Units matter: the equation as printed in the labeling takes serum creatinine in mg/dL, so a creatinine reported in SI units, as many laboratories report it, has to be converted before it goes into the equation. The KDIGO 2024 chronic kidney disease guideline's conversion table gives the factor for creatinine as mg/dL multiplied by 88.4 to give micromol/L, so her 124 micromol/L is 124 / 88.4 = 1.40 mg/dL, the value used above. This estimate is what she would be dosed on for renally cleared drugs.",
    "why_not": {
     "A": "23 mL/min comes from applying the 0.85 factor twice (31.7 x 0.85 x 0.85 = 22.9). The female correction is applied once.",
     "C": "32 mL/min is the value before the female correction (3200 / 100.8 = 31.7). Leaving out the 0.85 factor overestimates clearance in a woman.",
@@ -785,13 +935,23 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Pharmaceutical Calculations",
-     "locator": "Selected clinical calculations chapter, creatinine clearance (Cockcroft-Gault equation)",
+     "locator": "Selected clinical calculations chapter, creatinine clearance (Cockcroft-Gault equation). Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 16th, now titled Stoklosa and Ansel's Pharmaceutical Calculations (Stockton, Wolters Kluwer, July 2021), with a further edition announced. The equation, including the 0.85 factor for women, is carried by the labeling below, which anyone can open.",
      "url": ""
     },
     {
      "title": "Cockcroft DW, Gault MH. Prediction of creatinine clearance from serum creatinine. Nephron 1976;16:31-41",
-     "locator": "Derived equation and correction for females",
+     "locator": "Derived equation and correction for females. Not opened for this revision: karger.com returned HTTP 403 when the article page was requested on 26 September 2026 and Europe PMC records no free full text, so whether it can be read without a subscription was not established. It is named as the origin of the equation, and the labeling below carries the equation itself.",
      "url": "https://doi.org/10.1159/000180580"
+    },
+    {
+     "title": "Mozobil (plerixafor) injection, US prescribing information, Sanofi-Aventis U.S. LLC, label face prints Revised: 9/2023 (DailyMed set id 0ed08d2b-5051-46b2-aa37-1d6275bf9003, version 24, read 26 September 2026)",
+     "locator": "Section 2.3 Dose Modifications in Renal Impairment (formula rendered here in plain text): 'The following (Cockcroft-Gault) formula may be used to estimate CLCR: Males: Creatinine clearance (mL/min) = weight (kg) x (140 minus age in years) divided by (72 x serum creatinine (mg/dL)); Females: Creatinine clearance (mL/min) = 0.85 x value calculated for males.' The drug is beside the point; this is the same equation the item works, printed by a label anyone can open.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003"
+    },
+    {
+     "title": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease, Kidney International 2024;105(Suppl 4S):S117-S314 (the guideline PDF, KDIGO-2024-CKD-Guideline.pdf on kdigo.org, cover page prints VOLUME 105, ISSUE 4S, APRIL 2024; read 26 September 2026)",
+     "locator": "Conversion factors, page S127, table headed CONVERSION FACTORS OF CONVENTIONAL UNITS TO SI UNITS. The creatinine row reads: conventional unit mg/dl, conversion factor 88.4, SI unit micromol/l (the page prints the micro sign, which text extraction drops, so the page was read as a rendered image of the PDF). The note under the table is 'Conventional unit x conversion factor = SI unit', rendered here in plain text. This supports only the unit conversion in the explanation; the equation itself comes from the labeling above. The factor was cross-checked in an independent open access source: Ávila M, Mora Sánchez MG, Bernal Amador AS, Paniagua R, The Metabolism of Creatinine and Its Usefulness to Evaluate Kidney Function and Body Composition in Clinical Practice, Biomolecules 2025;15(1):41, doi 10.3390/biom15010041 (authorship and citation taken from the Europe PMC record for PMC11764249, full text read there 26 September 2026). Section 6 gives adult reference ranges of 0.74 to 1.35 mg/dL for men and 0.59 to 1.04 mg/dL for women, with SI equivalents of 65.4 to 119.3 and 52.2 to 91.9 (the paper prints the unit with the micro sign). Those paired values imply the same factor: 0.74 x 88.4 = 65.4, 1.35 x 88.4 = 119.3, 0.59 x 88.4 = 52.2 and 1.04 x 88.4 = 91.9.",
+     "url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf"
     }
    ]
   },
@@ -816,12 +976,12 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease, executive summary (Kidney International, 2024)",
-     "locator": "Chapter 3, Practice Points 3.6.2 and 3.6.4 (monitoring and continuing ACEi or ARB)",
+     "locator": "Chapter 3, read in the executive summary PDF on 26 September 2026. Practice Point 3.6.2: 'Changes in BP, serum creatinine, and serum potassium should be checked within 2-4 weeks of initiation or increase in the dose of a RASi, depending on the current GFR and serum potassium' (the range is printed with an en dash and is rendered here with a plain hyphen). Practice Point 3.6.4: 'Continue ACEi or ARB therapy unless serum creatinine rises by more than 30% within 4 weeks following initiation of treatment or an increase in dose.' These are practice points, not numbered recommendations 3.6.2 and 3.6.4, which are about who should start a RASi.",
      "url": "https://kdigo.org/wp-content/uploads/2017/02/KDIGO-2024-CKD-Guideline-Executive-Summary.pdf"
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "Chronic kidney disease chapter, ACE inhibitors and ARBs: expected rise in serum creatinine and monitoring",
+     "locator": "Chronic kidney disease chapter, ACE inhibitors and ARBs: expected rise in serum creatinine and monitoring. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 12th, DiPiro's Pharmacotherapy: A Pathophysiologic Approach, McGraw Hill, 2023. The deciding fact is carried by the KDIGO guideline beside it, which anyone can open.",
      "url": ""
     },
     {
@@ -852,12 +1012,12 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Gupta K, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: a 2010 update by IDSA and ESCMID. Clin Infect Dis 2011;52:e103-e120",
-     "locator": "Recommendations for treatment of acute uncomplicated cystitis (first-line agents, fluoroquinolones, beta-lactams)",
+     "locator": "Section I, What Is the Optimal Treatment for Acute Uncomplicated Cystitis, read in the publisher's PDF on 26 September 2026 (it downloads from academic.oup.com without a subscription). Recommendation 1: 'Nitrofurantoin monohydrate/macrocrystals (100 mg twice daily for 5 days) is an appropriate choice for therapy due to minimal resistance and propensity for collateral damage (defined above) and efficacy comparable to 3 days of trimethoprim-sulfamethoxazole (A-I).' Recommendation 7: 'Amoxicillin or ampicillin should not be used for empirical treatment given the relatively poor efficacy', with the statement on beta-lactams that they 'generally have inferior efficacy and more adverse effects, compared with other UTI antimicrobials (B-I)'.",
      "url": "https://doi.org/10.1093/cid/ciq257"
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "Urinary tract infections chapter, treatment of acute uncomplicated cystitis",
+     "locator": "Urinary tract infections chapter, treatment of acute uncomplicated cystitis. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 12th, DiPiro's Pharmacotherapy: A Pathophysiologic Approach, McGraw Hill, 2023. The deciding fact is carried by the IDSA and ESCMID guideline beside it, whose PDF downloads without a subscription.",
      "url": ""
     }
    ]
@@ -874,7 +1034,7 @@ window.SAYDANA = {
     "D": "Reduce lisinopril to the lowest effective dose and add hydrochlorothiazide."
    },
    "answer": "C",
-   "explanation": "Drugs acting directly on the renin-angiotensin system are fetotoxic. Exposure in the second and third trimesters reduces fetal kidney function and can cause oligohydramnios, lung hypoplasia, skull hypoplasia, neonatal kidney failure and death, and first-trimester exposure should also be avoided where possible. The lisinopril labeling carries a boxed warning to discontinue it as soon as pregnancy is detected. She should therefore switch now to an agent with established use in pregnancy. ACOG Practice Bulletin No. 203, Chronic Hypertension in Pregnancy (2019), recommends labetalol or nifedipine above all other antihypertensive drugs for long-term treatment in pregnancy and advises that ACE inhibitors and angiotensin receptor blockers are generally not recommended. Labetalol suits her because she has no asthma, bradycardia or heart block.",
+   "explanation": "Drugs that act directly on the renin-angiotensin system are fetotoxic. The lisinopril labeling states that use of such drugs 'during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death', that the resulting oligohydramnios 'can be associated with fetal lung hypoplasia and skeletal deformations', and that potential neonatal effects include 'skull hypoplasia, anuria, hypotension, renal failure, and death'. Its boxed warning and section 5.1 both say: 'When pregnancy is detected, discontinue Zestril as soon as possible.' She is 6 weeks pregnant, so the ACE inhibitor stops now and is replaced by an agent that guidance recommends in pregnancy. NICE guideline NG133 says the same two things in words anyone can open: 'Stop antihypertensive treatment in women taking ACE inhibitors or ARBs if they become pregnant (preferably within 2 working days of notification of pregnancy) and offer alternatives' (recommendation 1.3.3), and 'Consider labetalol to treat chronic hypertension in pregnant women. Consider nifedipine for women in whom labetalol is not suitable, or methyldopa if both labetalol and nifedipine are not suitable' (recommendation 1.3.10). NICE also advises women taking these drugs 'that there is an increased risk of congenital abnormalities if these drugs are taken during pregnancy' (recommendation 1.3.2), which is why the first trimester is not a window to wait out. Nothing in her history blocks labetalol: the US labetalol labeling contraindicates the drug 'in bronchial asthma, overt cardiac failure, greater-than-first-degree heart block, cardiogenic shock, severe bradycardia', and the stem tells you she has none of those. NICE is a United Kingdom body, and the answer does not change with the country the question is asked in. The US labeling requires the ACE inhibitor to stop as soon as pregnancy is detected, and the UK guideline names labetalol as the drug to consider for chronic hypertension in pregnancy; option C is the only option that does both.",
    "why_not": {
     "A": "The labeling says to stop an ACE inhibitor as soon as pregnancy is detected, not at the end of the first trimester. Continuing exposes the fetus for longer, and first-trimester exposure should also be avoided where possible.",
     "B": "Losartan is an angiotensin receptor blocker. It acts on the same renin-angiotensin system and carries the same fetal toxicity warning as ACE inhibitors.",
@@ -883,18 +1043,28 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "ZESTRIL (lisinopril) tablets, FDA-approved prescribing information, revised 07/2017",
-     "locator": "Boxed warning (fetal toxicity); section 5.1 Fetal Toxicity; section 8.1 Pregnancy",
+     "locator": "Boxed warning (fetal toxicity), section 5.1 Fetal Toxicity and section 8.1 Pregnancy, read 26 September 2026. Section 5.1: 'Zestril can cause fetal harm when administered to a pregnant woman. Use of drugs that act on the renin-angiotensin system during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. Resulting oligohydramnios can be associated with fetal lung hypoplasia and skeletal deformations. Potential neonatal adverse effects include skull hypoplasia, anuria, hypotension, renal failure, and death. When pregnancy is detected, discontinue Zestril as soon as possible'. The boxed warning carries the same instruction. This is the source for stopping the ACE inhibitor now.",
      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/019777s076lbl.pdf"
     },
     {
-     "title": "ACOG Practice Bulletin No. 203: Chronic Hypertension in Pregnancy. Obstet Gynecol 2019;133:e26-e50 (reaffirmed 2024)",
-     "locator": "Preconception counseling (agents to avoid) and long-term antihypertensive treatment in pregnancy",
+     "title": "ACOG Practice Bulletin No. 203: Chronic Hypertension in Pregnancy. Obstet Gynecol 2019;133(1):e26-e50",
+     "locator": "Not opened and not relied on. The journal's full text page returned payment required when it was requested on 26 September 2026, and the PubMed record (PMID 30575676, read 26 September 2026) carries only a scope abstract that names no drug. The issue and page numbers above are taken from that PubMed record, not from the article. The entry is kept because the bulletin is the American document on this topic and a reader may want it, but the explanation makes no claim about what it says; the choice of labetalol in the explanation rests on the NICE guideline below, which anyone can open.",
      "url": "https://doi.org/10.1097/AOG.0000000000003020"
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "Pregnancy and lactation: therapeutic considerations chapter, chronic hypertension in pregnancy",
+     "locator": "Pregnancy and lactation: therapeutic considerations chapter, chronic hypertension in pregnancy. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 12th, DiPiro's Pharmacotherapy: A Pathophysiologic Approach, McGraw Hill, 2023. The deciding facts are carried by three openable references beside it: the lisinopril labeling for stopping the ACE inhibitor, NICE guideline NG133 for the choice of labetalol, and the labetalol labeling for the contraindications.",
      "url": ""
+    },
+    {
+     "title": "National Institute for Health and Care Excellence, Hypertension in pregnancy: diagnosis and management, NICE guideline NG133, published 25 June 2019, last updated 17 April 2023 (recommendations page read 26 September 2026)",
+     "locator": "Recommendation 1.3.10: 'Consider labetalol to treat chronic hypertension in pregnant women. Consider nifedipine for women in whom labetalol is not suitable, or methyldopa if both labetalol and nifedipine are not suitable.' Recommendation 1.3.3: 'Stop antihypertensive treatment in women taking ACE inhibitors or ARBs if they become pregnant (preferably within 2 working days of notification of pregnancy) and offer alternatives.' Recommendation 1.3.2 advises women taking ACE inhibitors or ARBs 'that there is an increased risk of congenital abnormalities if these drugs are taken during pregnancy'. The page itself prints Published: 25 June 2019 and Last updated: 17 April 2023, and all three recommendations were read on it on 26 September 2026. NICE is a United Kingdom body and is cited because it states the choice in words anyone can open; the explanation says so, and says why the answer does not depend on which country's guidance is opened.",
+     "url": "https://www.nice.org.uk/guidance/ng133/chapter/Recommendations"
+    },
+    {
+     "title": "Labetalol hydrochloride tablets USP, US prescribing information, Advagen Pharma Ltd (ANDA 211953), label face prints Rev. 02, 03/2026 (DailyMed set id 106a0959-5830-489f-ba60-afd4eb0fac36, read 26 September 2026)",
+     "locator": "CONTRAINDICATIONS: 'Labetalol hydrochloride is contraindicated in bronchial asthma, overt cardiac failure, greater-than-first-degree heart block, cardiogenic shock, severe bradycardia, other conditions associated with severe and prolonged hypotension, and in patients with a history of hypersensitivity to any component of the product'. This is the source for the sentence about why the stem states she has no asthma, bradycardia or heart block. The same wording appears in the labeling of other US labetalol tablet products.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=106a0959-5830-489f-ba60-afd4eb0fac36"
     }
    ]
   },
@@ -924,7 +1094,7 @@ window.SAYDANA = {
     },
     {
      "title": "DiPiro, Pharmacotherapy: A Pathophysiologic Approach",
-     "locator": "Venous thromboembolism chapter, heparin-induced thrombocytopenia",
+     "locator": "Venous thromboembolism chapter, heparin-induced thrombocytopenia. Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 12th, DiPiro's Pharmacotherapy: A Pathophysiologic Approach, McGraw Hill, 2023. The deciding fact is carried by the American Society of Hematology guideline beside it, which is open access in Blood Advances and free in PubMed Central (PMC6258919).",
      "url": ""
     }
    ]
@@ -950,7 +1120,7 @@ window.SAYDANA = {
    "refs": [
     {
      "title": "Handbook of Nonprescription Drugs",
-     "locator": "Heartburn and dyspepsia chapter, exclusions for self-care (alarm features such as dysphagia and unexplained weight loss)",
+     "locator": "Heartburn and dyspepsia chapter, exclusions for self-care (alarm features such as dysphagia and unexplained weight loss). Background only: no edition was recorded for this item and the chapter body was not opened, so it is not cited as read; the publisher's current edition on 26 September 2026 is the 21st (Handbook of Nonprescription Drugs: An Interactive Approach to Self-Care, American Pharmacists Association, 2024). The deciding fact is carried by the nonprescription omeprazole Drug Facts label beside it, which anyone can open.",
      "url": ""
     },
     {
@@ -960,7 +1130,7 @@ window.SAYDANA = {
     },
     {
      "title": "PRILOSEC OTC (omeprazole magnesium) delayed-release tablets, Drug Facts label, DailyMed",
-     "locator": "Do not use; Ask a doctor before use; Directions (14-day course)",
+     "locator": "Drug Facts, read in the DailyMed label on 26 September 2026. Do not use: 'trouble or pain swallowing food, vomiting with blood, or bloody or black stools ... These may be signs of a serious condition. See your doctor.' Ask a doctor before use if you have: 'had heartburn over 3 months. This may be a sign of a more serious condition', 'unexplained weight loss', 'nausea or vomiting', 'stomach pain'. Directions: 'this product is to be used once a day (every 24 hours), every day for 14 days'. The label itself therefore excludes this man from self-treatment.",
      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77ed80a2-a482-4838-ac55-4865b5c31d9f"
     }
    ]
